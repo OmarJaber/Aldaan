@@ -92,5 +92,9 @@ When in doubt about your use of the ERPNext name or logo, please contact Frappe 
 (inspired by WordPress)
 =======
 # Aldaan
+<<<<<<< HEAD
 A Saudi Arabia Company specialize in manufacturing
 >>>>>>> dac3ef9eb5c5657169195bae2451f998fa198f93
+=======
+A Saudi Arabia Company specialize in manufacturing..
+>>>>>>> 21785d1487bceca05d756796ec059f03f0fd36a8
