@@ -49,6 +49,38 @@ class Supplier(TransactionBase):
 				msgprint(_("Series is mandatory"), raise_exception=1)
 
 		validate_party_accounts(self)
+		if self.add_account:
+			self.add_supplier_account()
+
+
+	def add_supplier_account(self):
+        supplier_account_name_english = str(self.supplier_name)
+        supplier_account_name_arabic = str(self.supplier_name_in_arabic)
+
+        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='21111 - Suppliers - الموردين - A' and account_name like '%{0}%' ".format(supplier_account_name_english))
+        if not accounts:
+            curr_account_number = 0
+            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='21111 - Suppliers - الموردين - A' order by creation desc limit 1") 
+            if account_number:
+                curr_account_number= str(int(account_number[0][0][5:])+int(1))
+            else:
+                curr_account_number= '001'
+
+            supplier_account_name = "{0} - {1}".format(supplier_account_name_english, supplier_account_name_arabic)
+
+            frappe.get_doc({
+                "doctype": "Account",
+                "account_name": str(supplier_account_name),
+                "account_number": '21111'+str(curr_account_number.zfill(3)),
+                "parent_account": '21111 - Suppliers - الموردين - A',
+                # "balance_must_be": 'Debit',
+                "is_group": 0
+            }).save(ignore_permissions = True)
+            
+            acc_name = frappe.get_list("Account", filters={"account_name": str(supplier_account_name) }, fields=["name"])
+            self.advances_account = str(acc_name[0]['name'])
+            frappe.msgprint("Supplier Account for {0} was successfully made".format(supplier_account_name_english))
+
 
 	def on_trash(self):
 		delete_contact_and_address('Supplier', self.name)

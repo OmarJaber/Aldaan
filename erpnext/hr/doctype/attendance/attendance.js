@@ -13,3 +13,53 @@ cur_frm.fields_dict.employee.get_query = function(doc,cdt,cdn) {
 		query: "erpnext.controllers.queries.employee_query"
 	}	
 }
+
+
+frappe.ui.form.on("Attendance", {
+	finished_on: function(frm) {
+		var total = frm.doc.finished_on - frm.doc.start_on;
+		var start = moment(frm.doc.start_on, "HH:mm");
+		var end = moment(frm.doc.finished_on, "HH:mm");
+		var minutes = end.diff(start, 'minutes');
+		var hours = Math.trunc(minutes/60);
+		var m1 = minutes%60;
+		var total_t = (	hours-1) + ":" + m1;
+		var total_time = total_t;
+		refresh_field('total_time');
+		frm.set_value('over_time_hours', hours-1)
+		frm.set_value('over_time_minutes', m1)
+		frm.set_value('actual_working_hours', total_time)
+	},
+	start_on: function(frm) {
+		var total = frm.doc.finished_on - frm.doc.start_on;
+		var start = moment(frm.doc.start_on, "HH:mm");
+		var end = moment(frm.doc.finished_on, "HH:mm");
+		var minutes = end.diff(start, 'minutes');
+		var hours = Math.trunc(minutes/60);
+		var m1 = minutes%60;
+		var total_t = (hours-1) + ":" + m1;
+		var total_time = total_t;
+		refresh_field('total_time');
+		frm.set_value('over_time_hours', hours-1)
+		frm.set_value('over_time_minutes', m1)
+		frm.set_value('actual_working_hours', total_time)
+	}
+
+});
+
+
+frappe.ui.form.on("Attendance", "on_submit", function(frm, cdt, cdn) {
+    var total = frm.doc.finished_on - frm.doc.start_on;
+	var start = moment(frm.doc.start_on, "HH:mm");
+	var end = moment(frm.doc.finished_on, "HH:mm");
+	var minutes = end.diff(start, 'minutes');
+	var hours = Math.trunc(minutes/60);
+	var m1 = minutes%60;
+	var total_t = (hours-1) + ":" + m1;
+	var total_time = total_t;
+	refresh_field('total_time');
+	frm.set_value('over_time_hours', hours-1)
+	frm.set_value('over_time_minutes', m1)
+	frm.set_value('actual_working_hours', total_time)
+})
+

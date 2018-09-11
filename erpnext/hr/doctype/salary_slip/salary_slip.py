@@ -38,6 +38,10 @@ class SalarySlip(TransactionBase):
 		self.status = self.get_status()
 		self.validate_dates()
 		self.check_existing()
+
+		if self.overtime_done != 1:
+			self.get_overtime()
+		
 		if not self.salary_slip_based_on_timesheet:
 			self.get_date_details()
 
@@ -97,6 +101,37 @@ class SalarySlip(TransactionBase):
 				tax_detail = self.calculate_variable_based_on_taxable_salary(struct_row.salary_component)
 				if tax_detail and tax_detail[1]:
 					self.update_component_row(frappe._dict(tax_detail[0]), tax_detail[1], "deductions", tax_detail[2], tax_detail[3])
+
+	def get_overtime(self):
+		attendance = frappe.db.sql("select actual_working_hours from `tabAttendance` where employee='{0}' and attendance_date between '{1}' and '{2}' ".format(self.employee,self.start_date,self.end_date))
+
+		hours = 0
+		minutes = 0
+		hour_rate = 0
+		i = 1
+		for day_working_hours in attendance:
+			hours += flt(day_working_hours[0].split(":")[0])-8.0
+			minutes += flt(day_working_hours[0].split(":")[1])
+
+			while i == 1:
+				if minutes >= 60:
+					hours = hours+1
+					minutes = minutes-60
+				else:
+					if minutes >= 30:
+						hours = hours+1
+					i = 0
+		
+		if hours>0 and self.employee_type:
+			if self.employee_type == 'داخل المصنع':
+				hour_rate = 10
+			elif self.employee_type == 'عمالة مؤقتة':
+				hour_rate = 16
+
+			self.append('earnings', {"salary_component": 'Overtime' ,"amount": hours*hour_rate})
+			self.overtime_done = 1
+			self.overtime_hours = hours
+	
 
 	def get_last_payroll_period_benefit(self):
 		payroll_period = get_payroll_period(self.start_date, self.end_date, self.company)

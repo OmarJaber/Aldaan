@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "creation": "2018-09-04 18:35:10.233185",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2018-09-05 11:24:17.715883",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Monthly Overtime",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Attendance",
+ "report_name": "Monthly Overtime",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "HR Manager"
+  }
+ ]
+}

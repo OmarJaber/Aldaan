@@ -619,3 +619,70 @@ def get_leave_approver(employee, department=None):
 	if department:
 		return frappe.db.get_value('Department Approver', {'parent': department,
 			'parentfield': 'leave_approvers', 'idx': 1}, 'approver')
+
+
+
+
+
+
+
+def iqama_validate_check():
+    from frappe.core.doctype.communication.email import make
+    frappe.flags.sent_mail = None
+
+    emp = frappe.db.sql("select name,iqama_valid_upto,user_id,iqama_notification from `tabEmployee`")
+    for i in emp:
+        if i[1] and i[3]:
+            date_difference = date_diff(i[1], getdate(nowdate()))
+
+            if date_difference <= 30 and date_difference > 0:
+                content_msg_emp="Your Iqama validity will end after {0} days".format(date_difference)
+
+                prefered_email = frappe.get_value("Employee", filters = {"name": i[0]}, fieldname = "prefered_email")
+                
+                if prefered_email:
+                    try:
+                        sent = 0
+                        make(subject = "Iqama Validity Notification", content=content_msg_emp, recipients=prefered_email,
+                            send_email=True, sender="aldaan.info@gmail.com")
+
+                        sent = 1
+                        print('send email for '+prefered_email)
+                    except:
+                        frappe.msgprint("could not send")
+
+                print(content_msg_emp)
+                print('----------------------------------------------------------------')
+
+
+
+
+
+def passport_validate_check():
+    from frappe.core.doctype.communication.email import make
+    frappe.flags.sent_mail = None
+
+    emp = frappe.db.sql("select name,valid_upto,user_id,passport_notification from `tabEmployee`")
+    for i in emp:
+        if i[1] and i[3]:
+            date_difference = date_diff(i[1], getdate(nowdate()))
+
+            if date_difference <= 30 and date_difference > 0:
+                content_msg_emp="Your Passport validity will end after {0} days".format(date_difference)
+
+                prefered_email = frappe.get_value("Employee", filters = {"name": i[0]}, fieldname = "prefered_email")
+                
+                if prefered_email:
+                    try:
+                        sent = 0
+                        make(subject = "Passport Validity Notification", content=content_msg_emp, recipients=prefered_email,
+                            send_email=True, sender="aldaan.info@gmail.com")
+
+                        sent = 1
+                        print('send email for '+prefered_email)
+                    except:
+                        frappe.msgprint("could not send")
+
+                print(content_msg_emp)
+                print('----------------------------------------------------------------')
+

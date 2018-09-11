@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class PartyTaxWithholdingConfig(Document):
+class Warrantor(Document):
 	pass
