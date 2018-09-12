@@ -103,7 +103,7 @@ class SalarySlip(TransactionBase):
 					self.update_component_row(frappe._dict(tax_detail[0]), tax_detail[1], "deductions", tax_detail[2], tax_detail[3])
 
 	def get_overtime(self):
-		attendance = frappe.db.sql("select actual_working_hours from `tabAttendance` where employee='{0}' and attendance_date between '{1}' and '{2}' ".format(self.employee,self.start_date,self.end_date))
+		attendance = frappe.db.sql("select actual_working_hours from `tabAttendance` where employee='{0}' and attendance_date between '{1}' and '{2}' and docstatus=1 ".format(self.employee,self.start_date,self.end_date))
 
 		hours = 0
 		minutes = 0
