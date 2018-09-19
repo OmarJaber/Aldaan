@@ -326,7 +326,7 @@ def allow_serial_nos_with_different_item(sle_serial_no, sle):
 	return allow_serial_nos
 
 def update_serial_nos(sle, item_det):
-	if sle.is_cancelled == "No" and not sle.serial_no and sle.actual_qty > 0 \
+	if sle.is_cancelled == "No" and not sle.serial_no and flt(sle.actual_qty) > 0 \
 			and item_det.has_serial_no == 1 and item_det.serial_no_series:
 		serial_nos = get_auto_serial_nos(item_det.serial_no_series, sle.actual_qty)
 		frappe.db.set(sle, "serial_no", serial_nos)

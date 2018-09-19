@@ -646,7 +646,7 @@ def get_serial_no_details(item_code, warehouse, stock_qty, serial_no):
 def get_bin_details_and_serial_nos(item_code, warehouse, has_batch_no, stock_qty=None, serial_no=None):
 	bin_details_and_serial_nos = {}
 	bin_details_and_serial_nos.update(get_bin_details(item_code, warehouse))
-	if stock_qty > 0:
+	if int(stock_qty) > 0:
 		if has_batch_no:
 			args = frappe._dict({"item_code":item_code, "warehouse":warehouse, "stock_qty":stock_qty})
 			serial_no = get_serial_no(args)
