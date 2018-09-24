@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
@@ -12,48 +13,48 @@ from erpnext.accounts.party import validate_party_accounts, get_dashboard_info, 
 
 
 class Supplier(TransactionBase):
-	def get_feed(self):
-		return self.supplier_name
+    def get_feed(self):
+        return self.supplier_name
 
-	def onload(self):
-		"""Load address and contacts in `__onload`"""
-		load_address_and_contact(self)
-		self.load_dashboard_info()
+    def onload(self):
+        """Load address and contacts in `__onload`"""
+        load_address_and_contact(self)
+        self.load_dashboard_info()
 
-	def before_save(self):
-		if not self.on_hold:
-			self.hold_type = ''
-			self.release_date = ''
-		elif self.on_hold and not self.hold_type:
-			self.hold_type = 'All'
+    def before_save(self):
+        if not self.on_hold:
+            self.hold_type = ''
+            self.release_date = ''
+        elif self.on_hold and not self.hold_type:
+            self.hold_type = 'All'
 
-	def load_dashboard_info(self):
-		info = get_dashboard_info(self.doctype, self.name)
-		self.set_onload('dashboard_info', info)
+    def load_dashboard_info(self):
+        info = get_dashboard_info(self.doctype, self.name)
+        self.set_onload('dashboard_info', info)
 
-	def autoname(self):
-		supp_master_name = frappe.defaults.get_global_default('supp_master_name')
-		if supp_master_name == 'Supplier Name':
-			self.name = self.supplier_name
-		else:
-			set_name_by_naming_series(self)
+    def autoname(self):
+        supp_master_name = frappe.defaults.get_global_default('supp_master_name')
+        if supp_master_name == 'Supplier Name':
+            self.name = self.supplier_name
+        else:
+            set_name_by_naming_series(self)
 
-	def on_update(self):
-		if not self.naming_series:
-			self.naming_series = ''
+    def on_update(self):
+        if not self.naming_series:
+            self.naming_series = ''
 
-	def validate(self):
-		# validation for Naming Series mandatory field...
-		if frappe.defaults.get_global_default('supp_master_name') == 'Naming Series':
-			if not self.naming_series:
-				msgprint(_("Series is mandatory"), raise_exception=1)
+    def validate(self):
+        # validation for Naming Series mandatory field...
+        if frappe.defaults.get_global_default('supp_master_name') == 'Naming Series':
+            if not self.naming_series:
+                msgprint(_("Series is mandatory"), raise_exception=1)
 
-		validate_party_accounts(self)
-		if self.add_account:
-			self.add_supplier_account()
+        validate_party_accounts(self)
+        if self.add_account:
+            self.add_supplier_account()
 
 
-	def add_supplier_account(self):
+    def add_supplier_account(self):
         supplier_account_name_english = str(self.supplier_name)
         supplier_account_name_arabic = str(self.supplier_name_in_arabic)
 
@@ -82,9 +83,9 @@ class Supplier(TransactionBase):
             frappe.msgprint("Supplier Account for {0} was successfully made".format(supplier_account_name_english))
 
 
-	def on_trash(self):
-		delete_contact_and_address('Supplier', self.name)
+    def on_trash(self):
+        delete_contact_and_address('Supplier', self.name)
 
-	def after_rename(self, olddn, newdn, merge=False):
-		if frappe.defaults.get_global_default('supp_master_name') == 'Supplier Name':
-			frappe.db.set(self, "supplier_name", newdn)
+    def after_rename(self, olddn, newdn, merge=False):
+        if frappe.defaults.get_global_default('supp_master_name') == 'Supplier Name':
+            frappe.db.set(self, "supplier_name", newdn)
