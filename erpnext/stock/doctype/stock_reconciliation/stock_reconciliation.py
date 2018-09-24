@@ -67,11 +67,11 @@ class StockReconciliation(StockController):
 			frappe.throw(_("None of the items have any change in quantity or value."),
 				EmptyStockReconciliationItemsError)
 
-		elif len(items) != len(self.items):
-			self.items = items
-			for i, item in enumerate(self.items):
-				item.idx = i + 1
-			frappe.msgprint(_("Removed items with no change in quantity or value."))
+		# elif len(items) != len(self.items):
+		# 	self.items = items
+		# 	for i, item in enumerate(self.items):
+		# 		item.idx = i + 1
+		# 	frappe.msgprint(_("Removed items with no change in quantity or value."))
 
 	def validate_data(self):
 		def _get_msg(row_num, msg):
