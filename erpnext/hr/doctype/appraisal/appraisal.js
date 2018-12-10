@@ -75,3 +75,208 @@ cur_frm.cscript.calculate_total = function(doc,cdt,cdn){
 cur_frm.fields_dict.employee.get_query = function(doc,cdt,cdn) {
 	return{	query: "erpnext.controllers.queries.employee_query" }
 }
+
+
+
+
+frappe.ui.form.on('Appraisal', {
+    refresh: function(frm,cdt,cdn){
+
+    	frm.add_custom_button(__("Test"), function () {
+
+
+
+			function convert(timestamp) {
+				var date = new Date(timestamp);
+				return [date.getFullYear(),("0" + (date.getMonth()+1)).slice(-2),("0" + date.getDate()).slice(-2),].join('-');
+			}
+
+
+			function listDate(startDate,endDate){
+				var listDate = [];
+				var dateMove = new Date(startDate);
+				var strDate = startDate;
+
+				while (strDate < endDate){
+				  var strDate = dateMove.toISOString().slice(0,10);
+				  listDate.push(strDate);
+				  dateMove.setDate(dateMove.getDate()+1);
+				};
+				return listDate
+			}
+
+
+
+
+			var arr=[]
+
+			var end_date = new Date(cur_frm.doc.end_date);
+			var makeDate = new Date(cur_frm.doc.end_date);
+
+			
+
+
+			// previous_month1 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// console.log(previous_month1)
+
+			console.log(listDate(convert('2018-10-01'),convert('2018-11-01')))
+			console.log(listDate(convert('2018-11-01'),convert('2018-12-01')))
+
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month1),convert(end_date)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+			// previous_month2 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month2),convert(previous_month1)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+			
+
+
+			// previous_month3 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month3),convert(previous_month2)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+			// previous_month4 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month4),convert(previous_month3)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+			// previous_month5 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month5),convert(previous_month4)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+			// previous_month6 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month6),convert(previous_month5)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+			// previous_month7 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month7),convert(previous_month6)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+			// previous_month8 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month8),convert(previous_month7)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+			// previous_month9 = makeDate.setMonth(makeDate.getMonth() - 1);
+			// frappe.db.get_value('Attendance', {
+	  //   		'employee': cur_frm.doc.employee,
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month9),convert(previous_month8)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+
+			// tt=frappe.db.get_value('Attendance', {
+	  //   		'docstatus': 1,
+	  //   		'attendance_date': ["in", listDate(convert(previous_month9),convert(end_date)) ]
+	  //   	}, 'sum(actual_working_hours)', function(r) {
+			// 	if(r['sum(actual_working_hours)']){
+			// 		arr.push(r['sum(actual_working_hours)'])
+			// 	}else{
+			// 		arr.push(0)
+			// 	}
+			// });
+
+
+
+        });
+
+
+
+    }
+
+
+
+});

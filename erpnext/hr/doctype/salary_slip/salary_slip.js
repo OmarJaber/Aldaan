@@ -5,6 +5,30 @@ cur_frm.add_fetch('employee', 'company', 'company');
 cur_frm.add_fetch('time_sheet', 'total_hours', 'working_hours');
 
 frappe.ui.form.on("Salary Slip", {
+	// before_save: function(frm){
+	// 	if(cur_frm.doc.overtime_done != 1 ){
+	// 		frappe.call({
+	//             "method": "get_overtime",
+	//             doc: cur_frm.doc,
+	//             callback: function(r) {
+
+	//             }
+	//         });
+	//     }
+	// },
+	// validate: function(frm){
+	// 	if(cur_frm.doc.overtime_done != 1 ){
+	// 		frappe.call({
+	//             "method": "get_overtime",
+	//             doc: cur_frm.doc,
+	//             callback: function(r) {
+
+	//             }
+	//         });
+	//         frm.trigger("earnings");
+	//     }
+	//     frm.trigger("earnings");
+	// },
 	setup: function(frm) {
 		$.each(["earnings", "deductions"], function(i, table_fieldname) {
 			frm.get_field(table_fieldname).grid.editable_fields = [

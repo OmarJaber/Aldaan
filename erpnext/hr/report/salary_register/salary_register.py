@@ -18,13 +18,15 @@ def execute(filters=None):
 
 	data = []
 	for ss in salary_slips:
-		row = [ss.name, ss.employee, ss.employee_name, ss.branch, ss.department, ss.designation,
-			ss.company, ss.start_date, ss.end_date, ss.leave_withut_pay, ss.payment_days]
+		# row = [ss.name, ss.employee, ss.employee_name, ss.branch, ss.department, ss.designation,
+		# 	ss.company, ss.start_date, ss.end_date, ss.leave_withut_pay, ss.payment_days]
 
-		if not ss.branch == None:columns[3] = columns[3].replace('-1','120')
-		if not ss.department  == None: columns[4] = columns[4].replace('-1','120')
-		if not ss.designation  == None: columns[5] = columns[5].replace('-1','120')
-		if not ss.leave_withut_pay  == None: columns[9] = columns[9].replace('-1','130')
+		row = [ss.name, ss.employee, ss.employee_name, ss.start_date, ss.end_date, ss.payment_days]
+
+		# if not ss.branch == None:columns[3] = columns[3].replace('-1','120')
+		# if not ss.department  == None: columns[4] = columns[4].replace('-1','120')
+		# if not ss.designation  == None: columns[5] = columns[5].replace('-1','120')
+		# if not ss.leave_withut_pay  == None: columns[9] = columns[9].replace('-1','130')
 
 
 		for e in earning_types:
@@ -50,11 +52,16 @@ def get_columns(salary_slips):
 		_("Payment Days") + ":Float:120"
 	]
 	"""
+	# columns = [
+	# 	_("Salary Slip ID") + ":Link/Salary Slip:150",_("Employee") + ":Link/Employee:120", _("Employee Name") + "::140", _("Branch") + ":Link/Branch:-1",
+	# 	_("Department") + ":Link/Department:-1", _("Designation") + ":Link/Designation:-1",
+	# 	_("Company") + ":Link/Company:120", _("Start Date") + "::80", _("End Date") + "::80", _("Leave Without Pay") + ":Float:-1",
+	# 	_("Payment Days") + ":Float:120"
+	# ]
+
 	columns = [
-		_("Salary Slip ID") + ":Link/Salary Slip:150",_("Employee") + ":Link/Employee:120", _("Employee Name") + "::140", _("Branch") + ":Link/Branch:-1",
-		_("Department") + ":Link/Department:-1", _("Designation") + ":Link/Designation:-1",
-		_("Company") + ":Link/Company:120", _("Start Date") + "::80", _("End Date") + "::80", _("Leave Without Pay") + ":Float:-1",
-		_("Payment Days") + ":Float:120"
+		_("Salary Slip ID") + ":Link/Salary Slip:150",_("Employee") + ":Link/Employee:120", _("Employee Name") + "::140",
+		_("Start Date") + "::80", _("End Date"), _("Payment Days") + ":Float:120"
 	]
 
 	salary_components = {_("Earning"): [], _("Deduction"): []}

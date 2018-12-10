@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
@@ -38,9 +39,6 @@ class SalarySlip(TransactionBase):
 		self.status = self.get_status()
 		self.validate_dates()
 		self.check_existing()
-
-		if self.overtime_done != 1:
-			self.get_overtime()
 		
 		if not self.salary_slip_based_on_timesheet:
 			self.get_date_details()
@@ -62,6 +60,10 @@ class SalarySlip(TransactionBase):
 			if self.salary_slip_based_on_timesheet and (self.total_working_hours > int(max_working_hours)):
 				frappe.msgprint(_("Total working hours should not be greater than max working hours {0}").
 								format(max_working_hours), alert=True)
+
+		if self.overtime_done != 1:
+			self.get_overtime()
+			
 
 	def validate_dates(self):
 		if date_diff(self.end_date, self.start_date) < 0:
@@ -131,6 +133,12 @@ class SalarySlip(TransactionBase):
 			self.append('earnings', {"salary_component": 'Overtime' ,"amount": hours*hour_rate})
 			self.overtime_done = 1
 			self.overtime_hours = hours
+			self.overtime_amount = hours*hour_rate
+			self.gross_pay = self.gross_pay + hours*hour_rate
+			self.net_pay = self.gross_pay
+			self.rounded_total = self.gross_pay
+			company_currency = erpnext.get_company_currency(self.company)
+			self.total_in_words = money_in_words(self.rounded_total, company_currency)
 	
 
 	def get_last_payroll_period_benefit(self):
