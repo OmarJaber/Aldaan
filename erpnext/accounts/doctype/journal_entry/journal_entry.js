@@ -305,10 +305,10 @@ erpnext.accounts.JournalEntry = frappe.ui.form.Controller.extend({
 		// set difference
 		if(doc.difference) {
 			if(doc.difference > 0) {
-				row.credit_in_account_currency = doc.difference;
+				// row.credit_in_account_currency = doc.difference;
 				row.credit = doc.difference;
 			} else {
-				row.debit_in_account_currency = -doc.difference;
+				// row.debit_in_account_currency = -doc.difference;
 				row.debit = -doc.difference;
 			}
 		}

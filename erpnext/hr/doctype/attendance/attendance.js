@@ -43,6 +43,34 @@ frappe.ui.form.on("Attendance", {
 		frm.set_value('over_time_hours', hours-1)
 		frm.set_value('over_time_minutes', m1)
 		frm.set_value('actual_working_hours', total_time)
+	},
+	finished_on_work: function(frm) {
+		var total = frm.doc.finished_on_work - frm.doc.start_on_work;
+		var start = moment(frm.doc.start_on_work, "HH:mm");
+		var end = moment(frm.doc.finished_on_work, "HH:mm");
+		var minutes = end.diff(start, 'minutes');
+		var hours = Math.trunc(minutes/60);
+		var m1 = minutes%60;
+		var total_t = (	hours-1) + ":" + m1;
+		var total_time = total_t;
+		refresh_field('total_time');
+		frm.set_value('over_time_hours_work', hours-1)
+		frm.set_value('over_time_minutes_work', m1)
+		frm.set_value('actual_working_hours_work', total_time)
+	},
+	start_on_work: function(frm) {
+		var total = frm.doc.finished_on_work - frm.doc.start_on_work;
+		var start = moment(frm.doc.start_on_work, "HH:mm");
+		var end = moment(frm.doc.finished_on_work, "HH:mm");
+		var minutes = end.diff(start, 'minutes');
+		var hours = Math.trunc(minutes/60);
+		var m1 = minutes%60;
+		var total_t = (hours-1) + ":" + m1;
+		var total_time = total_t;
+		refresh_field('total_time');
+		frm.set_value('over_time_hours_work', hours-1)
+		frm.set_value('over_time_minutes_work', m1)
+		frm.set_value('actual_working_hours_work', total_time)
 	}
 
 });
@@ -61,5 +89,23 @@ frappe.ui.form.on("Attendance", "on_submit", function(frm, cdt, cdn) {
 	frm.set_value('over_time_hours', hours-1)
 	frm.set_value('over_time_minutes', m1)
 	frm.set_value('actual_working_hours', total_time)
+})
+
+
+
+
+frappe.ui.form.on("Attendance", "on_submit", function(frm, cdt, cdn) {
+    var total = frm.doc.finished_on_work - frm.doc.start_on_work;
+	var start = moment(frm.doc.start_on_work, "HH:mm");
+	var end = moment(frm.doc.finished_on_work, "HH:mm");
+	var minutes = end.diff(start, 'minutes');
+	var hours = Math.trunc(minutes/60);
+	var m1 = minutes%60;
+	var total_t = (hours-1) + ":" + m1;
+	var total_time = total_t;
+	refresh_field('total_time');
+	frm.set_value('over_time_hours_work', hours-1)
+	frm.set_value('over_time_minutes_work', m1)
+	frm.set_value('actual_working_hours_work', total_time)
 })
 

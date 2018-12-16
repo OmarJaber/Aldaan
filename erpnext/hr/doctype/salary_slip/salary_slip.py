@@ -112,7 +112,7 @@ class SalarySlip(TransactionBase):
 		hour_rate = 0
 		i = 1
 		for day_working_hours in attendance:
-			hours += flt(day_working_hours[0].split(":")[0])-8.0
+			hours += flt(day_working_hours[0].split(":")[0])
 			minutes += flt(day_working_hours[0].split(":")[1])
 
 			while i == 1:
@@ -124,6 +124,8 @@ class SalarySlip(TransactionBase):
 						hours = hours+1
 					i = 0
 		
+		self.overtime_hours = hours
+
 		if hours>0 and self.employee_type:
 			if self.employee_type == 'داخل المصنع':
 				hour_rate = 10
@@ -132,14 +134,82 @@ class SalarySlip(TransactionBase):
 
 			self.append('earnings', {"salary_component": 'Overtime' ,"amount": hours*hour_rate})
 			self.overtime_done = 1
-			self.overtime_hours = hours
+			self.overtime_hour_rate = hour_rate
 			self.overtime_amount = hours*hour_rate
+
 			self.gross_pay = self.gross_pay + hours*hour_rate
 			self.net_pay = self.gross_pay
 			self.rounded_total = self.gross_pay
 			company_currency = erpnext.get_company_currency(self.company)
 			self.total_in_words = money_in_words(self.rounded_total, company_currency)
 	
+
+	def get_worked_hours(self):
+		attendance = frappe.db.sql("select actual_working_hours_work from `tabAttendance` where employee='{0}' and attendance_date between '{1}' and '{2}' and docstatus=1 ".format(self.employee,self.start_date,self.end_date))
+		salary = frappe.db.sql("select net_pay from `tabSalary Slip` where employee='{0}' order by start_date desc limit 1".format(self.employee))[0][0]
+
+		if salary:
+			emp_salary = salary
+		else:
+			emp_salary = 0
+
+		hours = 0
+		minutes = 0
+		hour_rate = 0
+		i = 1
+		for day_working_hours in attendance:
+			hours += flt(day_working_hours[0].split(":")[0])
+			minutes += flt(day_working_hours[0].split(":")[1])
+
+			while i == 1:
+				if minutes >= 60:
+					hours = hours+1
+					minutes = minutes-60
+				else:
+					if minutes >= 30:
+						hours = hours+1
+					i = 0
+		
+		self.current_month_worked_hours = hours
+		self.hour_rate_work = salary/30
+		self.hours_diff = self.monthly_total_hours-hours
+		self.total_deduction_hours = self.hours_diff*self.hour_rate_work*-1
+
+
+	def get_overtime_info(self):
+		attendance = frappe.db.sql("select actual_working_hours from `tabAttendance` where employee='{0}' and attendance_date between '{1}' and '{2}' and docstatus=1 ".format(self.employee,self.start_date,self.end_date))
+
+		hours = 0
+		minutes = 0
+		hour_rate = 0
+		i = 1
+		for day_working_hours in attendance:
+			hours += flt(day_working_hours[0].split(":")[0])
+			minutes += flt(day_working_hours[0].split(":")[1])
+
+			while i == 1:
+				if minutes >= 60:
+					hours = hours+1
+					minutes = minutes-60
+				else:
+					if minutes >= 30:
+						hours = hours+1
+					i = 0
+		
+		self.overtime_hours = hours
+
+		if hours>0:
+			if self.employee_type == 'داخل المصنع':
+				hour_rate = 10
+			elif self.employee_type == 'عمالة مؤقتة':
+				hour_rate = 16
+			else:
+				hour_rate = 0
+
+			self.overtime_hour_rate = hour_rate
+			self.overtime_amount = hours*hour_rate
+
+			
 
 	def get_last_payroll_period_benefit(self):
 		payroll_period = get_payroll_period(self.start_date, self.end_date, self.company)
@@ -356,6 +426,7 @@ class SalarySlip(TransactionBase):
 				["date_of_joining", "relieving_date"])
 
 		holidays = self.get_holidays_for_employee(self.start_date, self.end_date)
+
 		working_days = date_diff(self.end_date, self.start_date) + 1
 		actual_lwp = self.calculate_lwp(holidays, working_days)
 		if not cint(frappe.db.get_value("HR Settings", None, "include_holidays_in_total_working_days")):
@@ -371,8 +442,13 @@ class SalarySlip(TransactionBase):
 		self.total_working_days = working_days
 		self.leave_without_pay = lwp
 
+		self.monthly_total_hours = (working_days-len(holidays))*8
+
 		payment_days = flt(self.get_payment_days(joining_date, relieving_date)) - flt(lwp)
 		self.payment_days = payment_days > 0 and payment_days or 0
+		self.get_worked_hours()
+		self.get_overtime_info()
+
 
 	def get_payment_days(self, joining_date, relieving_date):
 		start_date = getdate(self.start_date)
