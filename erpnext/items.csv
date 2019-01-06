@@ -1,0 +1,402 @@
+رمز المادة,اسم المادة,اسم المستودع,المجموعة,الواحدة 1,الواحدة 2,الر مز الوارد,الإسم الوارد,سعر الشراء
+RAWM000001,أسيتون,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,,,
+RAWM000002,هيترون,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,,HETRON 922-P,18
+RAWM000003,كاتلست,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,,,
+RAWM000004,فايبر جلاس مات 300,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,,,
+RAWM000005,فايبر جلاس مات 400,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,,,
+RAWM000006,صبغة,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كالون,,,,
+RAWM000007,أكريليك,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,,,
+RAWM000008,غراء,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كالون,,,,25
+RAWM000009,كابوسيل,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,,,
+PACK000001,نايلون تغليف,Packaging - تعبئة وتغليف - A,تعبئة وتغليف,رول,,,,85
+SPER000001,كرت سنفرة مقاس 60 ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,علبة,,,0.96
+SPER000002,كرت سنفرة مقاس 120,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,علبة,,,0.95
+SPER000003,سلك لحام,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,كرتونة,,,0.5
+SPER000004,سلك تعليق الملكان ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,ربطة,,,,
+SPER000005,سطل ايطالي ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000257,BUCKETS ITALIAN,6
+RAWM000010,معجون بادي فيلر,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,سطل,,,,65
+SPER000006,فايبر دسك سنفرة ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,,,,
+SPER000007,كرت صاروخ قص 4.5 مل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,,,,85
+SPER000008,فرشاة بوية للكاستينغ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000245,BRUSH PAINT 2,4.167
+SPER000009,مشرط,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,5
+SPER000010,سفنج بوية صغيرة - غيار رولة صغير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICR000123,,1.5
+SPER000011,قناع,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICM000080,MASKS 3-PLY,0.1
+SPER000012,كرت صاروخ قص كبير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,,,,
+PACK000002,شطرطون ورق ابرو,Packaging - تعبئة وتغليف - A,تعبئة وتغليف,حبة,,ICM000062,MASKING TAPE ABRO 2*18,3
+SPER000013,مقابض اسطوانة صغيرة 4 بوصة - هاند رول,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICR000121,ROLLER HANDELS MINI 4 INCH,3
+SPER000014,قطع شفرات تايواني للمشرط,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000098,BLADES SPARE TAIWAN,1
+SPER000015,قرص تقطيع كاربوسان 4.5 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,باكيت,ICC000235,,2.5
+SPER000016,ورق سنفرة دائري 4.5 بو صة ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,باكيت,,,2.2
+SPER000017,سكين صيني - مشرط,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,,,,5
+SPER000018,رأس شطاف,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,10
+SPER000019,ملزمة قياس الاسلاك 18 مم / 10 كيلو جرام,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,رول,,,,85
+SPER000020,برغي حديد مكلفن 12×50,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,1
+SPER000021,جهاز تشغيل فلورسنت 20/40 واط,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,20
+SPER000022,أداة حفر كوبالت 3 مل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,55
+SPER000023,كفوف قطن ابيض ثقيل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICG000013,GLOVES COTTON THAILAND,1
+SPER000024,رفرف طحن 4.5 بوصة ( فيليكس / كراب ) 80,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,علبة,,,,55
+SPER000025,صامولة حديد مكلفن 12 مل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,علبة,,,,
+SPER000026,وردة مسطحة 12 مل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,علبة,,,,
+SPER000027,مسامير خشب 60×10 ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,0.5
+SPER000028,برغي حديد مكلفن 10×35,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,0.4
+SPER000029,استانلس ستيل 3×1220×2440مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,لوح,,,,850
+RAWM000011,CSM 450-EMCL (TSH),Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,,,7.5
+RAWM000012,SOLVENT CLEANER PRC-01 ,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,,,8
+SPER000030,ريشة مقاس 12 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 12 CARBIDE END MILL,150
+SPER000031,ريشة مقاس 8 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 8 CARBIDE END MIL,69.5
+SPER000032,ريشة مقاس 10 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 10 CARBIDE END MIL,112.5
+SPER000033,ريشة مقاس 6 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 6 CARBIDE END MIL,37
+SPER000034,ريشة مقاس 4 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 4 CARBIDE END MIL,37
+SPER000035,ريشة مقاس 12 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 12 BALL NOSE CARBIDE ,182
+SPER000036,ريشة مقاس 10 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 10 BALL NOSE CARBIDE ,160
+SPER000037,ريشة مقاس 8 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 8 BALL NOSE CARBIDE ,73
+SPER000038,ريشة مقاس 6 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 6 BALL NOSE CARBIDE ,46
+SPER000039,ريشة مقاس 4 لماكينة CNC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,DIA 4 BALL NOSE CARBIDE ,46
+RAWM000013,بوية ملكان,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,,,60
+PACK000003,شطرطون شفاف,Packaging - تعبئة وتغليف - A,تعبئة وتغليف,حبة,,ICM000074,MASKING TAPE TRANSPARENT ORIGINAL,4
+SPER000040,ماسورة استانلس ستيل 25×1.5,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ماسورة,,,,60
+RAWM000014,تنر,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C050510005,XL 2K THINNER SLOW 4.75,65
+SPER000041,مصفاة للبوية,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,عبوة,,02H122310001,PAINT STRAINERS,
+SPER000042,اقلام ماركر ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICM000057, MARKER,2
+SPER000043,طقم مكشطة حديد,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,طقم,,ICS000555,SCRAPPER STEEL SET,10
+SPER000044,ريشة دريل مقاس 8,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,9999822740,STEEL DRIL BIT 8 MM JOBBERS,11
+SPER000045,مسمار دراي وول اسود مقاس 8×2,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,2134030150,,0.02
+SPER000046,مسمار دراي وول اسود مقاس 8×1,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,2134030135,,
+SPER000047,اسطوانة قص خشب مقاس 9 انش,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,9999982163,,70
+SPER000048,كاربون ماكيتا وبوستش,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,علبة,ICC000068,,25
+SPER000049,صامولة حديد مكلفن مقاس 10 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,كيلو,,ICN000031,,13
+SPER000050,ورق سنفرة مقاس 120,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,متر,علبة,ICS000121,,8
+SPER000051,ورق سنفرة مقاس 80,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,متر,علبة,ICS000127,,50
+RAWM000015,منشف سريع - تنر حار XL,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,,,30
+RAWM000016,معجون دوكو,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,,,75
+RAWM000017,معجون 2000,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,,,37.5
+RAWM000018,معجون حديد 2000,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كالون,,,,37.5
+RAWM000019,ماسورة حديد مقاس 1.20,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ماسورة,,,,20
+RAWM000020,مربع حديد 12×12 -1.20,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,,,10
+SPER000052,صامولة حديد مكلفن مقاس 8 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,كيلو,,ICN000030,,10
+SPER000053,برغي الين  10×35,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,0.75
+SPER000054,مسامير حديد 14×1.5 انش,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,,,6
+SPER000055,تيوب 80×40×2مم مستطيل اسود,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,30
+SPER000056,تيوب 40مم×40سم×1.20مم× 6متر,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,25
+SPER000057,نظارات سلامة بلاستيك ابيض,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,5
+SPER000058,نظارات سلامة للتلحيم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,10
+SPER000059,وردة مسطحة 10 مل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,كيلو,,,,14
+SPER000060,قاعدة صاروخ مقاس 6,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,,,,40
+SPER000061,قرص تقطيع 14 بوصة دان مولر,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,باكيت,,,15
+SPER000062,قابس خوابير 12 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,,,6
+SPER000063,مسامير خشب 10×70,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,0.7
+SPER000064,برغي حديد مكلفن 10×30,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,0.3
+RAWM000021,معجون غراء 2000,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,,,15
+SPER000065,فرشاة بوية رول,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,5
+SPER000066,فرشاة بوية مقاس 3 كبير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,50
+RAWM000022,غراء لوكتايت,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,,,30
+SPER000067,ورق سنفرة 220 ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,باكيت,,,1
+SPER000068,قاعدة صاروخ مقاس 7,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,,,,35
+SPER000069,قابس كهرباء مسطح 3 فتحات,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,6
+SPER000070,شفرات منشار فرنسي ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,0.4
+SPER000071,مقص 6 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,10
+RAWM000023,بوية بلاستيك,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كالون,,,,45
+PACK000004,شطرطون ورق ابرو صغير,Packaging - تعبئة وتغليف - A,تعبئة وتغليف,حبة,,ICM000063,MASKING TAPE ABRO 1*20,2
+SPER000072,ورق سنفرة كوري 220,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICS000111,SAND PAPER KOREAN 220,0.25
+SPER000073,مسامير خشب 10×50,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,0.7
+SPER000074,مفتاح / شقاطة براغي 0.5 بوصة صيني,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,50
+SPER000075,مفتاح براغي جهة واحدة 17 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,13
+SPER000076,ملزمة قياس الاسلاك 16 مم / 10 كيلو جرام,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,رول,,ICB000075,BINDING WIRE GAUGE 16MM/10 KG,75
+SPER000077,كماشة خرطوم نحاس 0.25 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICN000012,NIPPLE BRASS FOR HOSE 1/4,6
+SPER000078,تفلون واسع 50 متر,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICT000075,TEFFLON WIDE 50M,5
+SPER000079,فرشاة خشب الماني,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000244,BRUSH MASONARY,7
+SPER000080,مشابك خرطوم مسكة قوية 16 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,ICH000187,HOSE CLAMPS HI-GRIP UK.,18
+SPER000081,خرطوم هواء 6×10,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICA000055,AIR HOSE 6*10 (100M/ROLL),8
+SPER000082,منفضة هواء,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICA000011,AIR DUSTER,10
+SPER000083,حجر دريل صغير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICM000124,MOUNTED STONE FOR DRILL SMALL,10
+SPER000084,مبسط عادي 12.7/11 ط 4 م,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,قطعة,,20111127040,,3
+SPER000085,قفازات منقطة ذو سلامة مزدوجة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,علبة,حبة,ICG000015,,5
+SPER000086,مسمار ابيض 4.6 خشن ملي ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,2011011268,HEX BOLT 4.6 UNC GAL - METRIC,0.225
+SPER000087,صواميل ابيض خشن ملي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,2601511040,HEX NUT UNC GAL DIN 934 - METRIC,0.1
+RAWM000024,خشب إم دي إف 9 مم درجة اولى,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,10022,,30
+SPER000088,حذاء السلامة مقاس 44,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICS000081,SAFETY SHOES SIZE 44,45
+SPER000089,كوع بلاستيك 90 درجة 1,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICE000075,ELBOW 90 UPVC 1,3
+SPER000090,شفاط نحاس 1 بوصة ايطالي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICV000069,,55
+SPER000091,تفلون صيني صغير ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,علبة,,ICT000074,TEFFLON CHINA SMALL,3
+SPER000092,أداة حفر هيلتي 160×10 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICD000075,DRILL BIT HILTI 160*10 MM,15
+SPER000093,خوابير حديد مدرعمة 10 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICS000233,SHIELD ANCHOR 10 MM,1.5
+SPER000094,اعواد مسننة 10×3 م,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICT000163,THREADED RODS 10*3 M,15
+SPER000095,بطارية انرجايزر AAA,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000003,BATTERY ENERGIZER AAA,4
+SPER000096,محبس كرة 1 بوصة اوندا /بيلبو,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICV000009,VALVES BALL ONDA 1 INCH,50
+SPER000097,CUTTING DISC 4.5 1MM,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,باكيت,,CD1,,95
+SPER000098,SAN DISC P 60,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,SD60,,45
+RAWM000025,خشب إم دي إف 12 مم درجة اولى,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,10023,,40
+RAWM000026,خشب إم دي إف 2.5 مم درجة اولى,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,10019,,13
+SPER000099,خوابير حديد 10 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,ICW000129,WEDGE ANCHORS 10 MM,35
+SPER000100,أداة حفر حديد كوري 11.5 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICD000141,DRILL BIT STEEL KOREAN 11.5 MM,18
+SPER000101,ماسورة استانلس ستيل 825,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,ماسورة,,,,440
+SPER000102,مشرط جودة عالية,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICK000007,KNIFE GOOD QUALITY ,10
+SPER000103,مسمار ذاتي التنصت دائري ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,ICS000038,,60
+SPER000104,برغي حديد مكلفن 30×10,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000195,BOLTS G.I. 10*30,0.35
+RAWM000027,ثنر ايطالي جالون ,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كالون,,ICT000083,THINNER SAFRA&ITALIAN,20
+RAWM000028,خشب ام دي اف قشرة مقنو 1 وجه 11 مم 4 × 8 ماليزي,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,3232111482M,,60
+SPER000105,CARBON BRUSH BOSCH,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,CB77,,15
+SPER000106,ورق سنفرة كوري 60,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICS000093,SAND PAPER KOREAN 60,2.2
+RAWM000029,HR-TUBE RECTANGULAR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,TR-HR,,18.35
+SPER000106,برغي حديد مكلفن 40×10,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000197,BOLTS G.I. 10*40,0.5
+SPER000107,برغي مقاس 100*10 على شكل I,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICI00001,I-BOLTS 100*10,2
+SPER000108,جلبة بلاستيك 1 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000191,COUPLING PVC 1,2
+SPER000109,قرص تقطيع حديد 4.5 بوصة فيليكس 1 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,,ICC000246,CUTTING DISCS PREMIUM FLEX S\S 4.5,5
+SPER000110,غيار فلتر صيني,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICF000103,FILTER SLEEVE CHINA,5
+SPER000111,ملزمة قياس الاسلاك 12 مم / 10 كيلو جرام,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,رول,,ICB000073,BINDING WIRE GAUGE 12MM/10 KG,75
+SPER000112,FLAT WASHER GAL DIN 125-METRIC,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,1897011145,,0.15
+SPER000113,ورق سنفرة دائري 4.5 بوصة تركي مقاس 60,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICS000131,SAND PAPER ROUND 4.5 INCH 60 TURKISH ,2.2
+RAWM000030,سيلكون أمريكي,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,9999863465,SILICON G1200 WHITE USA,7
+SPER000114,SAN DISC P80,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,SD80,SAN DISC P80,45
+SPER000115,مسمار دريوول درل أسود,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,4654040175,DRYWALL DRILL SCREW BLACK,0.02
+SPER000116,قاعدة سنفرة هواء,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,45
+SPER000117,مسمار دريوول درل أسود,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,4654030065,DRYWALL DRILL SCREW BALCK - METRIC,0.02
+SPER000118,صنارة مسامير ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICS000491,SCREWS HOOK TYPES,3
+SPER000119,جلبة بلاستيك 0.75 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000196,"COUPLING PVC 3/4""",1.75
+SPER000120,مكنسة شوارع أسود,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000236,BROOM BLACK 60 CM,20
+SPER000121,معجون النصل الفولاذ المجموعة 4,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,1487,PUTTY BLADE SET 4 PCS STEEL,10
+SPER000122,حديد مربع فارغ 12×12 سم 1.2 مم ط 6 م,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,20221212126,,10
+SPER000123,ماسورة ستانلس 16-1.2-304,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,ماسورة,,646,,40
+SPER000124,ماسورة ستانلس 25-1.2-304,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,ماسورة,,132,,60
+SPER000125,مبسط عادي 25 / 3 ط 4 م,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,20112503040,,6
+SPER000126,شد وصل بلاستيك 1 بوصة ض 80 بارد,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICU000045,"UNION UPVC 1""",9
+SPER000127,جلبة بلاستيك 1 بوصة ض 80,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000205,"COUPLING PVC 1""",3
+SPER000128,جلبة ذكر نحاس 1 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICM000002,"M/ADPTER BRASS THR.CPVC 1""",7
+SPER000129,جلبة سن داخلي نحاس ( 1بوصة×1بوصة ),Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICF000009,FEM/ADAPTER BRASS THREAD CPVC 1*1 INCH,15
+SPER000130,برغي حديد مكلفن مقاس 40×8,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000630,BOLTS G.I. 40*8,0.35
+SPER000131,أداة حفر كوبالت 10 مل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000123,COBALT DWESSER 10 MM,25
+SPER000132,مبسط عادي 40 / 3 ط 4 م,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,20114003040,,10
+SPER000133,شبكة حديد 120 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICM000114,MESH STEEL 120 CM,50
+SPER000134,مسمار ريشة أسود وأبيض 1.25×8,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,ICS000015,S.D.S. WHITElBLACK 8*1.25,30
+SPER000135,رشاش صدأ 24حبة للكرتون,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICW000079,WD-40 (24PCS/CTN) ,10
+SPER000136,اسياخ ابيض بالملي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,2186011230,THREADED ROD GAL DIN 975-METRIC ,6.5
+SPER000137,خوابير سلفر ملي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,3246011040,,0.2
+RAWM000031,خشب إم دي إف 5 مم عادي 4×8 سيام تايلاندي,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,,,18
+SPER000138,مفتاح ألين 5 مم ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICA000018,ALLEN KEY 5 MM,9
+SPER000139,برغي مسطح 20×8,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000589,BOLTS FLUSH HEAD 8*20,0.6
+SPER000140,برغي على شكل I 10×100,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICI000001,I-BOLTS 10*100,1
+SPER000141,كاربون روستش صغير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000556,CARBON ROSCH SMALL,15
+SPER000142,لصق عازل صغير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICI000006,INSULATION TAPES MINI,1.5
+SPER000143,كماشة ذو طيات الأنف مقاس 8 بوصة فيليكس,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICP000294,"PLIER NOSE 8""",20
+SPER000144,برغي على شكل I 10×90,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICI000009,I-BOLTS 10*90,1
+SPER000145,PPFSS(WINDOW),Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,
+SPER000146,شريط قياس 7.5 م خشبي تايواني,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICM000106,MEASURING TAPE WOOD 7.5M TAIWAN,20
+SPER000147,برغي مسطح 20×10,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000598,BOLTS FLUSH HEAD 10*20,0.8
+SPER000148,حبل نايلون 7 متر مقاس 35×8 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,رول,,,ICR000194,25
+SPER000149,ريشة تربيط المسامير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICP000166,PHILLIP BIT DOUBLE,5
+SPER000150,قرص تقطيع حديد 4.5 بوصة فيليكس 3 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000247,"CUTTING DISCS PREMIUM FLEX S/S 4.5"" 3MM",5
+SPER000151,اداة حفر حديد 5 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICD000094,DRILL BIT STEEL 5MM,6
+SPER000152,شريط قياس 5 متر خشبي تايواني,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICM000099,MEASURING TAPE WOOD 5M TAIWAN,15
+RAWM000032,صبغة بيضاء,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10249,P.P.SUPPER WHITE,30
+SPER000153,مسامير ستينلس ستيل 316 سنة كامل ملي ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,8888801639,,4.1
+SPER000154,صواميل ستينلس ستيل 316 سنة كامل ملي ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,4051516050,,0.45
+SPER000155,وردة صاج 316 ستينلس ستيل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,3687016050,,0.5
+SPER000156,عصا اسطوانة 3 متر,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICR000126,,18
+SPER000157,اسطوانة سميكة ايطالي 9 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICR000129,,10
+SPER000158,مقبض اصفر 4 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICR000128,,5
+SPER000159,خوابير سلفر ستنلس ستيل 304 ملي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,3816016035,,1.43
+RAWM000033,كربونات كالسيوم ,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,طن,,,,700
+RAWM000034,بودرة التلك,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,طن,,,,"1,400.000"
+SPER000160,ورق سنفرة كوري 400,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,ICS000115,,1
+RAWM000035,شحم فتشس,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,ICG000043,,15
+SPER000161,ماسورة ستانلس 12-1.2-304,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,ماسورة,,136,,35
+SPER000162,اداة الحفر كوبالت 8 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000140,COBALT DWESSER 8 MM,12
+SPER000163,قرص تقطيع 14 بوصة تايلاندي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000239,"CUTTING DISC EAGLE THAI 14""",15
+SPER000164,شاكوش جلدة مع بلاستيك كبير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,9999808080,,15
+RAWM000036,خشب إم دي إف عادي 12مم×122×244سم,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,2043,,40
+SPER000165,ريشة منشار رقم 11 فرنسي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,9999839480,,2.57
+RAWM000037,خشب ام دي اف 6 مم,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,,,20
+RAWM000038,خشب إم دي إف عادي 6مم×122×244سم,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,2041,,19.05
+RAWM000039,ابلكاج صبة اندونيسي 12 مم×122×244 سم,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,2019,,125
+SPER000166,زوايا 50 مم * 50 مم * 3 مم * 6 متر,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,40
+SPER000167,أداة حفر كوبالت 12 مل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICC000124,COBALT DWESSER 10 MM,35
+SPER000168,برغي حديد مكلفن 20×8,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000628,,0.25
+SPER000169,BU,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,3998,,8
+SPER000170,مسمار دباسة مقاس 15,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,F15,,12
+SPER000171,مسمار دباسة مقاس 20,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,F20,,12
+SPER000172,خرطوم شفاف 0.75 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,متر,,ICH000200,,5
+SPER000173,توصيلة لي صيني 0.75 بوصة ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICH000234,,6
+SPER000174,مشابك خرطوم مسكة قوية 25 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICH000190,,2.5
+SPER000175,جلبة سن داخلي نحاس ( 0.75 × 0.5 ),Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICF000013,,6
+RAWM000040,لوحة فايبر جلاس على شكل وردة,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,,,
+SPER000176,PLUG 2*3-PIN 2 مقبس,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICP000303,,5
+SPER000177,ماكينة سنفرة تعمل بالهواء 150 ملي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,UAOBS-101C6,,450
+SPER000178,خابور رأس الرشاش ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICS000311,,15
+RAWM000041,خشب إم دي إف عادي 18مم×122×244سم,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,2044,,55
+SPER000179,آلة حفر مسامير صغيرة 10 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICD000158,,190
+SPER000180,ريشة تربيط المسامير ثنائي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,باكيت,,ICP000167,,35
+SPER000181,TINSIL ( A+B ) 20 KG SET 80-15,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,8015,,"2,360.000"
+RAWM000042,XL PRIMER FLASH RAPID GREY 3 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C030310,,104
+SPER000182,برغي حديد 20×8,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000713,,0.8
+PACK000005,كرتون مضلع للتغليف,Packaging - تعبئة وتغليف - A,تعبئة وتغليف,حبة,,,,11.715
+SPER000183,مجسم راس من أسياخ النحاس,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,476.23
+SPER000184,ماكينة جلخ داخلي تعمل بالهواء,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,UAST-200AL,,185.71
+SPER000185,مجرب الماني كبير,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICT000078,,4
+RAWM000043,معجون أساس,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كالون,,,,90
+SPER000186,سنفرة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,دزينة,,,,10
+SPER000187,مسمار دباسة مقاس 35,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,F35,,18
+RAWM000044,تنر ايطالي 9 لتر,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,ICT000085,,50
+RAWM000045,خشب إم دي إف عادي 3مم×122×244سم,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,2040,,13.02
+SPER000188,برغي حديد مكلفن 10×50,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000198,,0.6
+SPER000189,برغي الين  10×20 اسود,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000478,,0.8
+SPER000190,طقم اكسسوارات ملكان,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,طقم,,,,70
+SPER000191,طقم اكسسوارات ملكان كتف,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,طقم,,,,5
+SPER000192,قاعدة ملكان زجاج,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,
+SPER000193,CK7-8-A,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,
+RAWM000046,CLASSIC MIX CRYL,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,G203-MIX,,37.14
+RAWM000047,CLASSIC THINNER SLOW 5241 5L,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كالون,,G203-SLTH,,55
+RAWM000048,CLASSIC HARDNER FAST 4222 1L,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,G203-HFST,,30
+SPER000194,كمامة ورق,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,OT100-MPRK,,5
+RAWM000049,اساس فرن رمادي,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كالون,,IL200-P334,,150
+RAWM000050,FIDEA HARDENER FAST 9052,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,FD200-9052,,45
+RAWM000051,SOLVEX CRYL THINNER DRUM 17 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,برميل,,OT100-SLVEX,,64.52
+SPER000195,برغي الين  20×8 اسود,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICB000104,,0.7
+SPER000196,هراب ماسورة 1.25 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICH000216,,8
+SPER000197,رأس هراب بلاستيك 1.25 بوصة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICP000379,,5
+SPER000198,قاعدة تلميع,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع لمعدات كهربائية,حبة,,,,45
+SPER000199,خرطوم ضغط غالي أزرق 10 مم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,متر,,ICH000250,AIR HOSE BLUE 10 MM,6
+SPER000200,مساحة بلاط 70 سم ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICW000142,WIPER 70 CM,30
+SPER000201,مساحة بلاط وسط 44/45 ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICW000031,WIPER 45/55 CM,20
+SPER000202,مفتاح براغي ألماني 13,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICP000134,PANERS GERMANY 13,15
+SPER000203,ورق سنفرة دائري 4.5 بوصة تركي مقاس 50,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,ICS000130,SAND PAPER ROUND 4.5 INCH 50 TURKISH ,2.2
+SPER000204,مسمار ميزانية مقاس 8 مل قاعدة بلاستيك أسود,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,,,1
+SPER000205,فلتر فرن علوي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,لفة,,EQ102-CFLR,,"1,350.000"
+SPER000206,فلتر جانبي أزرق وابيض,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,لفة,,EQ102-SP30,,450
+RAWM000052,خشب إم دي إف 18 ملم درجة أولى,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,,,55
+RAWM000053,خشب إم دي إف 2.5 مم عادي 4×8 رايونج تايلاندي,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,32310254809,,11
+RAWM000054,خشب إم دي إف 2.5 مم عادي 4×8 كوري,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,3231025480K,,11
+RAWM000055,خشب إم دي إف 17 مم عادي 4×8 فانا تشاي تايلاندي,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,3231025480K,,52
+RAWM000056,خشب ام دي اف 17 مم 4 × 8 برازيلي,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,3231174800Z,,50
+RAWM000057,خشب إم دي إف عادي 30مم×122×244سم,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,2047,,150
+RAWM000058,خشب إم دي إف 17 مم عادي 4×8 سيام تايلاندي,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,لوح,,323117480SM,,50
+SPER000207,قفازات لحم طويلة ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,حبة,,214,BATAL214,
+CA000001,ممسكة دفن,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,7030,WOODEN DRAWER ( DHUPEN ),5
+CA000002,مسمار جبس ,Raw Materials - A - المواد الأولية - A,قسم المنجرة,حبة,,41270,SCREW WHITE & BLACK,0.01
+CA000003,مفصلات دانكو,Raw Materials - A - المواد الأولية - A,قسم المنجرة,حبة,,26005,"HINGES DANCO ""OC""",2
+CA000004,مجابذ 2 قطعة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,35001,Majabath 2 gatha ga-16 ,0.75
+CA000005,سكة سحاب 50 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,زوج,,5074,Drawer Guide Soft Closing 50cm,40
+CA000006,خشب سويدي رابع 5 × 22.5,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,م 3,,150423,,"1,750.000"
+CA000007,خشب إم دي إف عادي 17 مم *122 *244 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,لوح,,2601010240,ORDINARY M D F 17MM *122*244 CM,47
+CA000008,خشب إم دي إف عادي 4.70 مم *122 *244 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,لوح,,2601010088,ORDINARY M D F 4.70 MM *122*244 CM,15
+CA000009,خشب إم دي إف عادي 11 مم *122 *244 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,لوح,,2601010190,ORDINARY M D F 11 MM *122*244 CM,32
+CA000010,خشب إم دي إف عادي 2.5 مم *122 *244 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,لوح,,2601010050,ORDINARY M D F 2.5 MM *122*244 CM,9
+CA000011,غراء سناب 446 برميل 35 كجم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,برميل,,2915010080,SNABB GLUE 446 BARREL 35 KG,200
+CA000012,بكرة توصيل كهرباء 50 متر 3 مقبس كستنماخر ألماني,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,4103151101,KISTENMACHER ELECTRIC GALVANIZED STEELCABLE REEL ,170
+CA000013,ازميل خشب - ستانلي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,153334000,CHISEL SET : WOOD,70
+CA000014,شاكوش - برازيلي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,191612000,HAMMER - BRAZIL,13
+CA000015,زرادية أسلاك - ألماني,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,212676800,NIPPER -GERMAN,32
+CA000016,صاروخ ديولت  4.5 ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,377,DWE4120,280
+CA000017,زاوية نجار أصفر 35 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,255,,9
+CA000018,دريل ماكيتا 16 مل روماني 1640 مع ريش 100 قطعة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,470,,380
+CA000019,متر 5 م أصفر بالملي 19 ملي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,9623,,7
+CA000020,متر 5 م ربل بالانش والملي,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,9636,,9
+CA000021,"MASKING TAPE 1"" ABRO USE",Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,24,,2
+CA000022,"MASKING TAPE 2"" ABRO USE",Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,6,,3
+CA000023,لقمة مربع ياباني دريل,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,8
+CA000024,دبوس مسمار 50 F,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,20
+CA000025,دبوس مسمار F40 ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,18
+CA000026,دبوس مسمار 25 F,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,15
+CA000027,دبوس مسمار 20 F,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,12
+CA000028,دبوس مسمار 10 F,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,10
+CA000029,قاعدة لصق جوكوسات,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,15
+CA000030,سنفرة لصق مقاس 60,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,1.4
+CA000031,سنفرة لصق مقاس 80,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,1.3
+CA000032,دسك قص كبير لماكينة صينية القص للمنجرة,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,OMAS-0005,TCT CIRCULAR SAW WITH ALTERNATE BEVEL TOOTH,130
+CA000033,خشب ميرانتي 5×25,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,م 3,,165025,,"2,600.000"
+CA000034,مسمار دباسة هواء مقاس 30,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,170054,,10
+CA000035,Drawer Guide Soft Closing 45cm,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,زوج,,5073,,35
+CA000036,مسمار مسدس 25 F,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,علبة,,86002,Musades Pin F 25,15
+CA000037,فورميكا 802,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,لفة,,,,350
+CA000038,فورميكا سلفر مطفى,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,لفة,,,,250
+CA000039,كرتون اساس ابيض ,Raw Materials - A - المواد الأولية - A,قسم المنجرة,كرتونة,,,,120
+CA000040,جالون أساس أبيض,Raw Materials - A - المواد الأولية - A,قسم المنجرة,كالون,,,,55
+CA000041,جالون أبيض لميع,Raw Materials - A - المواد الأولية - A,قسم المنجرة,كالون,,,,55
+CA000042,جالون أبيض مطفي,Raw Materials - A - المواد الأولية - A,قسم المنجرة,كالون,,,,55
+CA000043,عمود لزق عريض,Raw Materials - A - المواد الأولية - A,قسم المنجرة,حبة,,,,15
+CA000044,عمود لزق رفيع صغير,Raw Materials - A - المواد الأولية - A,قسم المنجرة,حبة,,,,20
+CA000045,متر صغيرة 120 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,5
+CA000046,متر صغيرة 150 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,5
+CA000047,متر صغيرة 100 سم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,5
+CA000048,طقم سكين,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,,,5
+CA000049,برميل معجون فلكس,Raw Materials - A - المواد الأولية - A,قسم المنجرة,برميل,,,,50
+CA000050,برميل تنر كربل كبير,Raw Materials - A - المواد الأولية - A,قسم المنجرة,برميل,,,,130
+CA000051,ريشة 12.7×34.90,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,93535011,,150
+CA000052,خشب سويدي خامس3.8×22.5,Raw Materials - A - المواد الأولية - A,قسم المنجرة,م 3,,150538,,"1,550.000"
+CA000053,صنفرة مدور 60,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,حبة,,60EPK,,1.45
+CA000054,خشب سويدي خامس3.2×22.5,Raw Materials - A - المواد الأولية - A,قسم المنجرة,م 3,,150532,,"1,500.000"
+CA000055,بلاستك شفاف 1.22×2.44×2 مل,Raw Materials - A - المواد الأولية - A,قسم المنجرة,لوح,,M000200,,138.1
+CA000056,خشب ام دي اف موغنو 18مم×122×244سم,Raw Materials - A - المواد الأولية - A,قسم المنجرة,لوح,,2054,,100
+CA000057,مسامير 6 سم ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,علبة,,,,30
+CA000058,مسامير 8 سم ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,علبة,,,,35
+CA000059,مسامير 7 سم ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,علبة,,,,35
+CA000060,مسامير 4 سم ,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,علبة,,,,25
+CA000061,مسامير 3 سم أسود,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,علبة,,,,20
+CA000062,مسامير 2.5 سم ناعم,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قسم المنجرة,علبة,,,,20
+CA000063,خشب سويدي رابع 5×25 سم,Raw Materials - A - المواد الأولية - A,قسم المنجرة,لوح,,1062,,"1,850.000"
+CA000064,خشب إم دي إف أبيض 18مم×122×244سم,Raw Materials - A - المواد الأولية - A,قسم المنجرة,لوح,,2063,,80
+SIR00021,رولات ألمنيوم 140/21,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,10204,ALLUM.ROLLER 140/21,45
+SIR00022,رولات ألمنيوم 180/45,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,10208,ALLUM.ROLLER 180/45,45
+SIR00023,رولات ألمنيوم 35/12,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,10209,ALLUM.ROLLER 12/35,45
+AKAG00001,XL PAINT CRYL COAT GAL,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C010130084,,150
+AKAG00002,XL HIGHBUIL PRIMER GREY WITH HARDENER3 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C030310012,,115.34
+AKAG00003,XL 2K THINNER SLOW 4.75 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C050510005,,65.03
+AKAG00004,PAINT STRAINERS,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,02H122310001,,0.01
+AKAG00005,CHEMATIC HARDENER 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C040410010,,33.33
+AKAG00006,XL CRYL COAT PAINT 444 GAL,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C010130089,,143
+AKAG00007,SIKKENS HARDENER P 15,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01S040440003,,97.37
+AKAG00008,SIKKENS AUTOCLEAR 5LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C020230006,,193
+AKAG00009,XL THNNER LACQUER 15 LITERS,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,02K050550002,,90
+AKAG00010,XL 2K THINNER SLOW 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C050510004,,21.9
+AKAG00011,IWATA W400 WBX C. GUN 1.4 PRO KIT,Spare Parts & Small Equipment - A - قطع الغيار والعدد والأدوات الصغيرة - A,قطع وأدوات صغيرة,قطعة,,01I102010007,,"2,670.000"
+AKAG00012,GRIFO THNNER SLOW 5 LILTER,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C050510009,,81
+AKAG00013,THINNER LACQUER GRIFO 17 LITERS,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,2K050550001,,78
+AKAG00014,SIKKENS THINNER 123 SLOW 5LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C050510019,,104
+AKAG00015,SIKENS EP PRIMER 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01S030340004,,86.67
+AKAG00016,SIKKENS EP EP HARDNER ,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01S040450002,,57.3
+AKAG00017,SIK AUTOBASE PLUS XIRALLIC MIXED COLOR 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01S010120223,,160
+AKAG00018,GRIFO BODY FILLER 1.7 KGS,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01G060620002,,33.5
+AKAG00019,XL PERFECT CRYL PAINT 3 LITER,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C010130011,,102.42
+AKAG00020,DPI HIQ MASTER CLEAR 4LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C020220007,,125.8
+AKAG00021,3M 5N11 FILTER,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,13102010005,CSM 450-EMCL (TSH),13
+AKAG00022,XL PRIMER GREY 3 LTR WITH HARDNER 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,02W03031000,,128.27
+AKAG00023,SIKKENS ACLEAR M&M LOW GLOSS WE 1 L,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,01S020240003,,175
+AKAG00024,XL CRYLOCAT MIXED COLOR 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,01C010130102,,65
+AKAG00025,THINNER LACQUER GRIFO 17 LITERS,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,02K050550001,,78
+AKAG00026,THINNER MASTER CRYL 17 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,05L050540001,,78
+AKAG00027,3M RESPIRATOR N95 W/O FACESEA,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,13092340,,18
+AKAG00028,HARDENER T-5,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,علبة,,40420,,38.2
+AKAG00029,DYNA CLER MAT 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01S020240,,86.2
+AKAG00030,DYNA HARDNER SLOW 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01S040410,,84
+AKAG00032,SIKKENS AUTOCRYL RM TOY 202 3LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C010130,,110
+AKAG00033,HARDNER TUBE 70 GRM,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C040420,,9
+AKAG00034,DYN BC MIXED XIRALLIC COLOR 1,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01S010120,,110
+AKAG00035,DPI 2K HARDENER CCH200 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C040410,,43.15
+AKAG00036,XL HARDENER HPT5 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,40420,,38.2
+AKAG00037,XL CHEMATIC T10 HARDENER,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C040410,,33.33
+AKAG00038,XL CHEMATIC THINNER SLOW 4.75 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C050510,,65.03
+AKAG00039,DYNA THINNER SLOW 5 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01Y050510,,103
+AKAG00040,XL HARDNER TUBE 70 GRM,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C040420,,9
+AKAG00041,سنفرة ياباني رقم 800,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,01K071710,TKX W/A ABRASIVE P800,1.72
+AKAG00042,مجفف اساس اكس ال هايبيل 1 لتر,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01C040410,HARDENER XL HIGHBUILD 1 LTR,31.65
+AKAG00043,نورتن كمامة دبل ( ايه 2 سي 2 ),Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,04W102010,NORTON DUAL CARTRIDGE RESPIRATOR M,141.95
+AKGA00031,DYNAHARDNER FAST 1 LTR,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,عبوة,,01S040420,,75
+SIRL00001,HONEY WAX 397G CAN,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,حبة,,10051,HONEY WAX 397G CAN,40
+SIRL00002,SIROPOL 8340-P,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,30OR010,SIROPOL 8340-P,6.8
+SIRL00003,SIROPOL 8420-P,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,30OR007,SIROPOL 8420-P,7.3
+SIRL00004,SIROGEL 9000,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,65GC001,SIROGEL 9000,11.65
+SIRL00005,MEKP M-50 ( LARGE ) AKZ,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,ليتر,,10060,MEKP M-50 ( LARGE ) AKZ,18
+SIRL00006,P.P.SUPPER BLACK,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10101,P.P.SUPPER BLACK,40
+SIRL00007,CABOSIL -(SMALL),Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10265,CABOSIL -(SMALL),30
+SIRL00008,CSM 450-EMCL (TSH),Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10384,CSM 450-EMCL (TSH),7.3
+SIRL00009,CSM 300 GRM (EICO),Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10535,CSM 300 GRM (EICO),7.309
+SIRL00010,HETRON 922-P,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,55VR004,CSM 300 GRM (EICO),17
+SIRL00011,CALCIUM SMB-7 (FINE),Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10016,CSM 300 GRM (EICO),1
+SIRL00012,COBALT 6%,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10021,,50
+SIRL00013,CSM 300-EMCL (TSH),Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10385,,7.3
+SIRL00014,SOLVENT CLEANER PRC-01,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10480,,7.5
+SIRL00015,CSM 450-EMCL (AMP),Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10547,CSM 450-EMCL (TSH),7.5
+SIRL00016,SIROPOL 8771-P,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,30OR172,,8.5
+SIRL00017,SIROPOL RESIN SOLVENT,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,20IS093,,8.5
+SIRL00018,RELEASING AGENT SL-2,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,SP00010,,25
+SIRL00019,FUMED SILICA KONASIL K-200,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10566,,60
+SIRL00020,PIGMENT PASTE SIGNAL RED,Raw Materials - A - المواد الأولية - A,Raw Material - مواد أولية,كيلو,,10092,,50
