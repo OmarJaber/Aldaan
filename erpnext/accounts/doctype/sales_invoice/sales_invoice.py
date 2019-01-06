@@ -115,6 +115,24 @@ class SalesInvoice(SellingController):
 		if self.redeem_loyalty_points and self.loyalty_program and self.loyalty_points:
 			validate_loyalty_points(self, self.loyalty_points)
 
+		self.refresh_customer_address()
+		self.refresh_bank_account_details()
+
+
+	def refresh_customer_address(self):
+		doc = frappe.get_doc("Address", self.customer_address)
+		self.customer_address_email = doc.email_id
+		self.customer_address_phone = doc.phone
+		self.customer_address_fax = doc.fax
+		self.customer_address_address = doc.address_line1
+
+	def refresh_bank_account_details(self):
+		doc = frappe.get_doc("Company", self.company)
+		self.bank_name = doc.bank_name
+		self.bank_address = doc.bank_address
+		self.beneficiary_name = doc.beneficiary_name
+		self.account_number = doc.account_number
+		self.iban_number = doc.iban_number
 
 	def before_save(self):
 		set_account_for_mode_of_payment(self)
