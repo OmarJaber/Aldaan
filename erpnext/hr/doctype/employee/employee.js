@@ -37,6 +37,13 @@ erpnext.hr.EmployeeController = frappe.ui.form.Controller.extend({
 
 });
 frappe.ui.form.on('Employee',{
+	validate: function(frm) {
+	    var total = 0;
+	    $.each(frm.doc.employee_entitlement || [], function (i, d) {
+	        total += flt(d.entitlement_cost);
+	    });
+	    frm.set_value("total_employee_entitlement", total);
+	},
 	setup: function(frm) {
 		frm.set_query("leave_policy", function() {
 			return {
@@ -94,6 +101,24 @@ frappe.ui.form.on('Employee',{
 				frm.set_value("user_id", r.message)
 			}
 		});
+	},
+	get_entitlement: function(frm) {
+		frappe.call({
+            method: "get_employee_entitlements",
+            doc: cur_frm.doc,
+            callback: function(r) { 
+            	frm.refresh_field("employee_entitlement");
+            }
+        });
 	}
 });
 cur_frm.cscript = new erpnext.hr.EmployeeController({frm: cur_frm});
+
+
+frappe.ui.form.on("Employee Entitlement", "entitlement_cost", function (frm, cdt, cdn) {
+    var total = 0;
+    $.each(frm.doc.employee_entitlement || [], function (i, d) {
+        total += flt(d.entitlement_cost);
+    });
+    frm.set_value("total_employee_entitlement", total);
+});

@@ -16,6 +16,35 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 
 
+def tst_api():
+    from bidi.algorithm import get_display
+
+    import arabic_reshaper
+
+    from bidi.algorithm import get_display
+
+    from num2words import num2words
+
+    print(num2words(1606,lang='ar'))
+    print(arabic_reshaper.reshape(num2words(1606,lang='ar')))
+    print(get_display(arabic_reshaper.reshape(num2words(1606,lang='ar'))))
+
+
+def add_entitlment():
+    employees=frappe.db.sql("select name from `tabEmployee`")
+    for emp in employees:
+        print(emp[0])
+        entitlement=frappe.db.sql("select name from `tabEntitlement Type`")
+        for i in entitlement:
+            doc = frappe.get_doc('Employee', emp[0] )
+            doc.append('employee_entitlement', {"entitlement_type": i[0]})
+            doc.flags.ignore_mandatory = True
+            doc.save(ignore_permissions = True)
+
+
+
+
+
 def save_attendance():
     length=frappe.db.sql("select count(name) from `tabAttendance` where name='ATT-00001'")
     emp=frappe.db.sql("select name from `tabAttendance` where name='ATT-00001'")

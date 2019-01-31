@@ -179,6 +179,7 @@ def _make_sales_invoice(source_name, target_doc=None, ignore_permissions=False):
 		if customer:
 			target.customer = customer.name
 			target.customer_name = customer.customer_name
+
 		target.ignore_pricing_rule = 1
 		target.flags.ignore_permissions = ignore_permissions
 		target.run_method("set_missing_values")

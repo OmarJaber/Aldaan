@@ -313,6 +313,22 @@ class Employee(NestedSet):
             doc.validate_employee_creation()
             doc.db_set("employee", self.name)
 
+    def get_employee_entitlements(self):
+        arr=[]
+        try:
+            for emp_entitlement in self.employee_entitlement:
+                arr.append(emp_entitlement.entitlement_type)
+
+            entitlements = frappe.get_list("Entitlement Type", fields='entitlement_name')
+            for entitlement in entitlements:
+                if entitlement['entitlement_name'] not in arr:
+                    self.append('employee_entitlement', {"entitlement_type": entitlement['entitlement_name']})
+        except:
+            entitlement=frappe.db.sql("select name from `tabEntitlement Type`")
+            for i in entitlement:
+                self.append('employee_entitlement', {"entitlement_type": i[0]})
+                
+
 def get_timeline_data(doctype, name):
     '''Return timeline for attendance'''
     return dict(frappe.db.sql('''select unix_timestamp(attendance_date), count(*)
