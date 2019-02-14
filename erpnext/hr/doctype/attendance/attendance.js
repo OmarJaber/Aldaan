@@ -23,10 +23,10 @@ frappe.ui.form.on("Attendance", {
 		var minutes = end.diff(start, 'minutes');
 		var hours = Math.trunc(minutes/60);
 		var m1 = minutes%60;
-		var total_t = (	hours-1) + ":" + m1;
+		var total_t = (	hours) + ":" + m1;
 		var total_time = total_t;
 		refresh_field('total_time');
-		frm.set_value('over_time_hours', hours-1)
+		frm.set_value('over_time_hours', hours)
 		frm.set_value('over_time_minutes', m1)
 		frm.set_value('actual_working_hours', total_time)
 	},
@@ -37,10 +37,10 @@ frappe.ui.form.on("Attendance", {
 		var minutes = end.diff(start, 'minutes');
 		var hours = Math.trunc(minutes/60);
 		var m1 = minutes%60;
-		var total_t = (hours-1) + ":" + m1;
+		var total_t = (hours) + ":" + m1;
 		var total_time = total_t;
 		refresh_field('total_time');
-		frm.set_value('over_time_hours', hours-1)
+		frm.set_value('over_time_hours', hours)
 		frm.set_value('over_time_minutes', m1)
 		frm.set_value('actual_working_hours', total_time)
 	},
