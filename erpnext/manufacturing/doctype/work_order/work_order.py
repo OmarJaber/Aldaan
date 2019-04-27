@@ -371,7 +371,7 @@ class WorkOrder(Document):
 
 				from_time, to_time = self.get_start_end_time(timesheet, d.name)
 
-				if date_diff(from_time, original_start_time) > plan_days:
+				if date_diff(from_time, original_start_time) > cint(plan_days):
 					frappe.throw(_("Unable to find Time Slot in the next {0} days for Operation {1}").format(plan_days, d.operation))
 					break
 
