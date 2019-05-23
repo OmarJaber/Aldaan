@@ -74,6 +74,7 @@ class Supplier(TransactionBase):
                 "account_name": str(supplier_account_name),
                 "account_number": '21111'+str(curr_account_number.zfill(3)),
                 "parent_account": '21111 - Suppliers - الموردين - A',
+                "company": 'aldaan',
                 # "balance_must_be": 'Debit',
                 "is_group": 0
             }).save(ignore_permissions = True)

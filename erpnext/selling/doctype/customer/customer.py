@@ -88,6 +88,7 @@ class Customer(TransactionBase):
                 "account_number": '1241'+str(curr_account_number.zfill(3)),
                 "parent_account": '1241 - Customers - العملاء - A',
                 "balance_must_be": 'Debit',
+                "company": 'aldaan',
                 # "account_type": '',
                 "is_group": 0
             }).save(ignore_permissions = True)

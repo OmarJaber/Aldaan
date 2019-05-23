@@ -16,6 +16,42 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 
 
+
+def add_show_expert_accounts():
+    from frappe.utils.csvutils import read_csv_content
+    from frappe.core.doctype.data_import.importer import upload
+    with open("/home/frappe/frappe-bench/apps/erpnext/erpnext/show_expert_account_tree.csv", "r") as infile:   
+        rows = read_csv_content(infile.read())
+        i = 0
+        for index, row in enumerate(rows):
+            parent = str(row[1])+' - '+str(row[0])+' - '+str(row[2])+' - S'
+            account_name = str(row[3])+' - '+str(row[5])
+            print(parent)
+            if row[7]==1:
+                frappe.get_doc({
+                  "doctype":"Account",
+                  "account_name": account_name,
+                  "account_number": row[4],
+                  "is_group": row[7],
+                  "root_type": row[6]
+                }).insert(ignore_permissions=True)
+            else:
+                frappe.get_doc({
+                  "doctype":"Account",
+                  "account_name": account_name,
+                  "account_number": row[4],
+                  "is_group": row[7]
+                }).insert(ignore_permissions=True)
+            
+            i+=1
+
+        print('*************')
+        print(i)
+        print('*************')
+
+
+
+
 def tst_api():
     from bidi.algorithm import get_display
 

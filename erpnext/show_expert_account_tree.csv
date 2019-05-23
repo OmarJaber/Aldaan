@@ -1,0 +1,139 @@
+,,,,,,,
+Assets,1,الأصول,Long Term Assets,11,الأصول طويلة الأجل,Asset,1
+Long Term Assets,11,الأصول طويلة الأجل,Lands,111,صافي الاراضي,Asset,1
+Lands,111,صافي الاراضي,Total land,1111,إجمالي الأراضي,Asset,0
+Lands,111,صافي الاراضي,Accumulated Depreciation Of Lands,1112,مجمع إهلاك الأراضي,Asset,0
+Long Term Assets,11,الأصول طويلة الأجل,Buildings and Construction,112,صافي مباني وانشاءات ومرافق,Asset,1
+Buildings and Construction,112,صافي مباني وانشاءات ومرافق,Total Buildings and Construction,1121,إجمالي مباني وانشاءات ومرافق,Asset,0
+Buildings and Construction,112,صافي مباني وانشاءات ومرافق,Accumulated Depreciation Of Building,1122,مجمع إهلاك المباني والانشاءات والمرافق,Asset,0
+Long Term Assets,11,الأصول طويلة الأجل,Machinery and Equipment,113,صافي آلات وتجهيزات,Asset,1
+Machinery and Equipment,113,صافي آلات وتجهيزات,Total Machinery and Equipment,1131,إجمالي الآلات والتجهيزات,Asset,0
+Machinery and Equipment,113,صافي آلات وتجهيزات,Accumulated Depreciation Of Machines,1132,مجمع إهلاك الآلات والتجهيزات,Asset,0
+Long Term Assets,11,الأصول طويلة الأجل,Vehicles,114,صافي وسائل نقل وانتقال,Asset,1
+Vehicles,114,صافي وسائل نقل وانتقال,Total Vehicles,1141,إجمالي وسائل النقل والإنتقال,Asset,0
+Vehicles,114,صافي وسائل نقل وانتقال,Accumulated Depreciation Of Vehicles,1142,مجمع إهلاك صافي وسائل النقل والإنتقال,Asset,0
+Long Term Assets,11,الأصول طويلة الأجل,Equipment and Supplies and Models,115,صافي العدد والادوات والقوالب,Asset,1
+Equipment and Supplies and Models,115,صافي العدد والادوات والقوالب,Total Equipment and Supplies and Models,1151,إجمالي العدد والأدوات والقوالب,Asset,0
+Equipment and Supplies and Models,115,صافي العدد والادوات والقوالب,Accumulated Depreciation Of Equipment,1152,مجمع إهلاك العدد والأدوات والقوالب,Asset,0
+Long Term Assets,11,الأصول طويلة الأجل,Furniture and Office Equipment,116,صافي الأثاث ومعدات المكاتب والاجهزة الحاسوبية,Asset,1
+Furniture and Office Equipment,116,صافي الأثاث ومعدات المكاتب والاجهزة الحاسوبية,Total Furniture and Office Equipment,1161,إجمالي الأثاث ومعدات المكاتب والاجهزة الحاسوبية,Asset,0
+Furniture and Office Equipment,116,صافي الأثاث ومعدات المكاتب والاجهزة الحاسوبية,Accumulated Depreciation Of Furniture,1162,مجمع إهلاك الأثاث ومعدات المكاتب والاجهزة الحاسوبية,Asset,0
+Assets,1,الأصول,Long-Term Investments,13,استثمارات طويلة الاجل,Asset,1
+Long-Term Investments,13,استثمارات طويلة الاجل,Real Estate Investments,131,استثمارات عقارية,Asset,0
+Long-Term Investments,13,استثمارات طويلة الاجل,Stock Investments in Related Companies,132,استثمارات في أوراق مالية,Asset,0
+Assets,1,الأصول,Inventory,14,المخزون,Asset,1
+Inventory,14,المخزون,Completed Products,143,انتاج تام,Asset,1
+Completed Products,143,انتاج تام,Completed Products - End of Period,1430,مخزون بضاعة اخر المدة,Asset,0
+Completed Products,143,انتاج تام,Completed Products - Opening Stock,1431,مخزون بضاعة اول المدة,Asset,0
+Inventory,14,المخزون,Letter Of Credits for Goods Purchase,146,اعتمادات لشراء المواد والبضائع,Asset,1
+Letter Of Credits for Goods Purchase,146,اعتمادات لشراء المواد والبضائع,Letter Of Credits 1,14601,اعتماد 1,Asset,0
+Assets,1,الأصول,Debit Accounts,15,مدينون,Asset,1
+Debit Accounts,15,مدينون,Commercial Debitors,151,العملاء,Asset,1
+Debit Accounts,15,مدينون,Notes Receivable,152,شيكات برسم التحصيل,Asset,1
+Debit Accounts,15,مدينون,Short Term Advance Insurance & Payment,153,سلف وتامينات قصير الاجل,Asset,1
+Debit Accounts,15,مدينون,The Covenant,154,العهد المستديمة,Asset,1
+The Covenant,154,العهد المستديمة,The Covenant - Basem Zaroor,1540001,العهد المستديمة - باسم زعرور,Asset,0
+Assets,1,الأصول,Different Debit Accounts,17,حسابات مدينة مختلفة,Asset,1
+Assets,1,الأصول,Cash,18,اموال جاهزة,Asset,1
+Cash,18,اموال جاهزة,Cash in Hand,181,الصندوق,Asset,1
+Cash in Hand,181,الصندوق,Cash,1811,الصندوق,Asset,0
+Cash,18,اموال جاهزة,Bank (Current Account),182,المصارف,Asset,1
+Bank (Current Account),182,المصارف,Bank 1,18201,البنك الأول,Asset,0
+,,,,,,,
+Equity and Liabilities,2,الالتزامات وحقوق الملكية,Equity,21,حقوق الملكية,Equity,1
+Equity,21,حقوق الملكية,Declared Capital,211,راس المال المصرح به,Equity,1
+Declared Capital,211,راس المال المصرح به,Paid Capital,2111,راس المال المدفوع,Equity,0
+Declared Capital,211,راس المال المصرح به,Unpaid Capital,2112,راس المال غير المدفوع,Equity,0
+Equity,21,حقوق الملكية,Reserved,212,احتياطيات,Equity,1
+Reserved,212,احتياطيات,Legal Reserves,2121,احتياطي قانوني,Equity,0
+Reserved,212,احتياطيات,Optional Reserve,2124,احتياطي اختياري,Equity,0
+Reserved,212,احتياطيات,Other Reserve,2125,احتياطيات اخرى,Equity,0
+Equity,21,حقوق الملكية,Profit,213,الارباح,Equity,1
+Profit,213,الارباح,Net Profit (Before Tax),2131,صافي الأرباح,Equity,0
+Equity,21,حقوق الملكية,Accumulated Depreciation,216,مجمع الاهتلاك,Equity,1
+Accumulated Depreciation,216,مجمع الاهتلاك,Accumulated Depreciation Of Building,2162,مجمع اهتلاك مباني و انشاءات,Equity,0
+Accumulated Depreciation,216,مجمع الاهتلاك,Accumulated Depreciation Of Machines,2163,مجمع اهتلاك آلات ومعدات,Equity,0
+Accumulated Depreciation,216,مجمع الاهتلاك,Accumulated Depreciation Of Vehicles,2164,مجمع اهتلاك وسائل نقل وانتقال,Equity,0
+Accumulated Depreciation,216,مجمع الاهتلاك,Accumulated Depreciation Of Equipment,2165,مجمع اهتلاك عدد وادوات,Equity,0
+Accumulated Depreciation,216,مجمع الاهتلاك,Accumulated Depreciation Of Furniture,2166,مجمع اهتلاك اثاث ومعدات مكاتب,Equity,0
+Equity and Liabilities,2,الالتزامات وحقوق الملكية,Expenditures,22,الالتزامات,Equity,1
+Expenditures,22,الالتزامات,Reserveds,221,المخصصات,Equity,1
+Reserveds,221,المخصصات,Reserve End of Service Bonus,2211,مخصص مكافأة نهاية الخدمة,Equity,0
+Reserveds,221,المخصصات,Allowance for doubtful Account,2212,مخصص الديون المشكوك فيها,Equity,0
+Expenditures,22,الالتزامات,Long Term Liabilities,222,التزامات طويلة الاجل,Equity,1
+Long Term Liabilities,222,التزامات طويلة الاجل,Local Loans,2221,قروض محلية,Equity,0
+Long Term Liabilities,222,التزامات طويلة الاجل,External Loans,2222,قروض خارجية,Equity,0
+Expenditures,22,الالتزامات,Credit Accounts,223,الحسابات الدائنة,Equity,1
+Credit Accounts,223,الحسابات الدائنة,Suppliers,2231,الموردون,Equity,0
+Credit Accounts,223,الحسابات الدائنة,Checks payable,2232,شيكات برسم الدفع,Equity,0
+Credit Accounts,223,الحسابات الدائنة,Salary Expenses Payable,2233,مصاريف مستحقة - رواتب الموظفين,Equity,0
+Credit Accounts,223,الحسابات الدائنة,Accrued Vacation Expenses,2234,مصاريف مستحقة إجازات,Equity,0
+Credit Accounts,223,الحسابات الدائنة,Financial Department,2235,الدوائر المالية,Equity,0
+Credit Accounts,223,الحسابات الدائنة,Customs,2236,الامانات الجمركية,Equity,0
+Credit Accounts,223,الحسابات الدائنة,Other Credit Accounts,2239,حسابات دائنة اخرى,Equity,0
+,,,,,,,
+Uses,3,الاستخدامات,Salary & Wages,31,اجور نقدية,Expense,1
+Salary & Wages,31,اجور نقدية,Salary for actual days,3111,مصاريف الرواتب والأجور,Expense,0
+Salary & Wages,31,اجور نقدية,Vacation Expenses,3112,مصاريف الإجازات,Expense,0
+Salary & Wages,31,اجور نقدية,Overtime Compensation,3113,تعويض العمل الاضافي,Expense,0
+Salary & Wages,31,اجور نقدية,End of Service Bonus Expenses,3114,مصاريف مكافأة نهاية الخدمة,Expense,0
+Salary & Wages,31,اجور نقدية,Encouragement Compensations,3117,مكافات تشجيعية مختلفة,Expense,0
+Uses,3,الاستخدامات,Merchandise Requirements,32,مستلزمات سلعية,Expense,1
+Merchandise Requirements,32,مستلزمات سلعية,Stationery Expense,321,مصاريف ادوات كتابية وكتب ومطبوعات,Expense,0
+Merchandise Requirements,32,مستلزمات سلعية,Computer Requirements,322,مستلزمات الحاسب الآلي,Expense,0
+Uses,3,الاستخدامات,Services Requirements,33,مستلزمات خدمية,Expense,1
+Services Requirements,33,مستلزمات خدمية,Maintenance Expense,331,مصاريف الصيانة,Expense,1
+Services Requirements,33,مستلزمات خدمية,Advertising Expenses,332,دعاية وإعلان,Expense,1
+Services Requirements,33,مستلزمات خدمية,Cleaning Expenses,333,مصاريف نظافة,Expense,1
+Services Requirements,33,مستلزمات خدمية,Selling Expenses,334,مصاريف بيع وتوزيع,Expense,1
+Services Requirements,33,مستلزمات خدمية,Shipping Expenses,335,مصاريف نقل وانتقال,Expense,1
+Services Requirements,33,مستلزمات خدمية,Car Maintenance Expenses,336,صيانة السيارات,Expense,1
+Services Requirements,33,مستلزمات خدمية,Capacity Building,337,تدريب وتاهيل,Expense,1
+Services Requirements,33,مستلزمات خدمية,Miscellaneous Services,339,مصروفات خدمية متنوعة,Expense,1
+Miscellaneous Services,339,مصروفات خدمية متنوعة,Gift and Sample Expenses,3391,مصاريف هدايا وعينات,Expense,0
+Miscellaneous Services,339,مصروفات خدمية متنوعة,Insurance Expenses,3392,مصروفات التامين (عدا العاملين ومستلزمات الانتاج),Expense,0
+Miscellaneous Services,339,مصروفات خدمية متنوعة,Other Commissions,3394,عمولات مختلفة,Expense,0
+Miscellaneous Services,339,مصروفات خدمية متنوعة,Phone Expenses,3395,مصروف هاتف,Expense,0
+Miscellaneous Services,339,مصروفات خدمية متنوعة,Internet Expenses,3396,مصروف إنترنت,Expense,0
+Miscellaneous Services,339,مصروفات خدمية متنوعة,Fuel Expenses,3397,مصروف محروقات,Expense,0
+Miscellaneous Services,339,مصروفات خدمية متنوعة,Electricity Expenses,3398,مصروف كهرباء,Expense,0
+Miscellaneous Services,339,مصروفات خدمية متنوعة,Water Expenses,3399,مصروف مياه,Expense,0
+Uses,3,الاستخدامات,Purchases,34,مشتريات بغرض البيع,Expense,1
+Purchases,34,مشتريات بغرض البيع,Purchases (purchases value),341,مشتريات بغرض البيع (قيمة مشتريات),Expense,0
+Purchases,34,مشتريات بغرض البيع,Return purchases,343,مردودات المشتريات,Expense,0
+Purchases,34,مشتريات بغرض البيع,Credit discount,344,خصم نقدي مكتسب,Expense,0
+Purchases,34,مشتريات بغرض البيع,Purchases freight,346,نقل مشتريات,Expense,0
+Purchases,34,مشتريات بغرض البيع,other purchases expenses,349,مصاريف شراء أخرى,Expense,0
+Uses,3,الاستخدامات,Depreciation Exp,35,اعباء الاهتلاكات,Expense,1
+Depreciation Exp,35,اعباء الاهتلاكات,Depreciation Of Building,352,اهتلاك مباني وانشاءات,Expense,0
+Depreciation Exp,35,اعباء الاهتلاكات,Depreciation Of Machines,353,اهتلاك آلات ومعدات,Expense,0
+Depreciation Exp,35,اعباء الاهتلاكات,Depreciation Of Vehicles,354,اهتلاك وسائل نقل وانتقال,Expense,0
+Depreciation Exp,35,اعباء الاهتلاكات,Depreciation Of Equipment,355,اهتلاك عدد وادوات وقوالب,Expense,0
+Depreciation Exp,35,اعباء الاهتلاكات,Depreciation Of Furniture,356,اهتلاك اثاث ومعدات ومكاتب,Expense,0
+Uses,3,الاستخدامات,Taxs and fees,36,ضرائب ورسوم,Expense,1
+Taxs and fees,36,ضرائب ورسوم,Profits Tax,361,ضريبة دخل الارباح,Expense,0
+Taxs and fees,36,ضرائب ورسوم,Spending Fee,364,رسم الإنفاق الاستهلاكي,Expense,0
+Taxs and fees,36,ضرائب ورسوم,Other fees,367,ضرائب ورسوم اخرى,Expense,0
+Uses,3,الاستخدامات,Administrative Expenses,37,مصاريف ادارية متنوعة,Expense,1
+Administrative Expenses,37,مصاريف ادارية متنوعة,Public relations,371,مصاريف حكومية,Expense,1
+Public relations,371,مصاريف حكومية,Expenses for Renewal of Residence,3710001,مصاريف تجديد الإقامة,Expense,0
+Administrative Expenses,37,مصاريف ادارية متنوعة,Contribution,376,تبرعات,Expense,1
+Administrative Expenses,37,مصاريف ادارية متنوعة,Zaka,378,زكاة,Expense,1
+Administrative Expenses,37,مصاريف ادارية متنوعة,Other Expenses,379,مصاريف نثرية أخرى,Expense,1
+Uses,3,الاستخدامات,Capital losses and Other expenses,38,خسائر راسمالية ومصاريف متنوعة اخرى,Expense,1
+Capital losses and Other expenses,38,خسائر راسمالية ومصاريف متنوعة اخرى,Bad debits,382,الديون المعدومة,Expense,0
+Capital losses and Other expenses,38,خسائر راسمالية ومصاريف متنوعة اخرى,Last year expenses,383,مصروفات سنوات سابقة,Expense,0
+Capital losses and Other expenses,38,خسائر راسمالية ومصاريف متنوعة اخرى,Other Expenses,385,مصاريف متنوعة اخرى,Expense,0
+Uses,3,الاستخدامات,Operating Expenses,39,مصاريف تشغيلية,Expense,1
+,,,,,,,
+Incomes,4,الايرادات,Net sales,43,صافي المبيعات,Income,1
+Net sales,43,صافي المبيعات,gross sales,431,اجمالي المبيعات,Income,0
+Net sales,43,صافي المبيعات,Returns sales,433,مرتجعات المبيعات,Income,0
+Net sales,43,صافي المبيعات,Debit discount,434,خصم نقدي ممنوح,Income,0
+Net sales,43,صافي المبيعات,Commercial discount,435,حسم تجاري ممنوح,Income,0
+Net sales,43,صافي المبيعات,Finish product freight,436,نقل مبيعات,Income,0
+Net sales,43,صافي المبيعات,Samples and presents,437,هدايا وعينات,Income,0
+Incomes,4,الايرادات,Other income,44,ايرادات متنوعة,Income,1
+Other income,44,ايرادات متنوعة,Securities incomes,441,ايرادات اوراق مالية,Income,0
+Other income,44,ايرادات متنوعة,Income sales for waste products,443,ارباح مبيع مخلفات وخامات,Income,0
+Other income,44,ايرادات متنوعة,Commission,448,عمولات,Income,0

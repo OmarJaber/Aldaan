@@ -90,6 +90,7 @@ class Employee(NestedSet):
                 "account_number": '1271'+str(curr_account_number.zfill(3)),
                 "parent_account": '1271 - Employee Advances - سلف الموظفين - A',
                 "balance_must_be": 'Debit',
+                "company": 'aldaan',
                 "is_group": 0
             }).save(ignore_permissions = True)
             
@@ -118,6 +119,7 @@ class Employee(NestedSet):
                 "account_name": str(emp_account_name),
                 "account_number": '2121'+str(curr_account_number.zfill(3)),
                 "parent_account": '2121 - Salary Expenses Payable - مصاريف رواتب مستحقة - A',
+                "company": 'aldaan',
                 # "balance_must_be": 'Debit',
                 "is_group": 0
             }).save(ignore_permissions = True)
@@ -148,6 +150,7 @@ class Employee(NestedSet):
                 "account_number": '2122'+str(curr_account_number.zfill(3)),
                 "parent_account": '2122 - Accrued Vacation Expenses - مصاريف إجازات مستحقة - A',
                 "balance_must_be": 'Credit',
+                "company": 'aldaan',
                 "is_group": 0
             }).save(ignore_permissions = True)
             
@@ -177,6 +180,7 @@ class Employee(NestedSet):
                 "account_number": '2131'+str(curr_account_number.zfill(3)),
                 "parent_account": '2131 - Reserve End of Service Bonus - مخصص مكافأة نهاية الخدمة - A',
                 "balance_must_be": 'Credit',
+                "company": 'aldaan',
                 "is_group": 0
             }).save(ignore_permissions = True)
             
