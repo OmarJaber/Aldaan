@@ -72,11 +72,17 @@ class Customer(TransactionBase):
                 self.loyalty_program_tier = customer.loyalty_program_tier
 
     def add_customer_account(self):
-        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='1241 - Customers - العملاء - A' and account_name like '%{0}%' ".format(self.customer_name))
+        prev='A'
+        if self.company=='aldaan':
+            prev='A'
+        elif self.company=='Show Experts':
+            prev='SE'
+
+        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='1241 - Customers - العملاء - {0}' and account_name like '%{1}%' ".format(prev,self.customer_name))
         # if not frappe.db.exists("Account", {"account_name": self.customer_name.split('-')[0] }) :
         if not accounts:
             curr_account_number = 0
-            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='1241 - Customers - العملاء - A' order by creation desc limit 1") 
+            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='1241 - Customers - العملاء - {0}' order by creation desc limit 1".format(prev)) 
             if account_number:
                 curr_account_number= str(int(account_number[0][0][4:])+int(1))
             else:
@@ -86,9 +92,9 @@ class Customer(TransactionBase):
                 "doctype": "Account",
                 "account_name": self.customer_name,
                 "account_number": '1241'+str(curr_account_number.zfill(3)),
-                "parent_account": '1241 - Customers - العملاء - A',
+                "parent_account": '1241 - Customers - العملاء - {0}'.format(prev),
                 "balance_must_be": 'Debit',
-                "company": 'aldaan',
+                "company": self.company,
                 # "account_type": '',
                 "is_group": 0
             }).save(ignore_permissions = True)

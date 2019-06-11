@@ -294,3 +294,5 @@ regional_overrides = {
 		'erpnext.controllers.taxes_and_totals.update_itemised_tax_data': 'erpnext.regional.united_arab_emirates.utils.update_itemised_tax_data'
 	}
 }
+
+fixtures = ["Custom Script","Custom Field", "Print Format", "Print Style", "Workflow State", "Role","Email Template", "Workflow Action Master", "Workflow",{"dt":"Property Setter"}]
