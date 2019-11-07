@@ -60,6 +60,8 @@ class Supplier(TransactionBase):
             prev='A'
         elif self.company=='Show Experts':
             prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
 
         supplier_account_name_english = str(self.supplier_name)
         supplier_account_name_arabic = str(self.supplier_name_in_arabic)

@@ -75,6 +75,8 @@ class Employee(NestedSet):
             prev='A'
         elif self.company=='Show Experts':
             prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
 
         emp_account_name_english = str(self.first_name+' '+self.last_name)
         emp_account_name_arabic = str(self.first_name_arabic+' '+self.last_name_arabic)
@@ -111,6 +113,8 @@ class Employee(NestedSet):
             prev='A'
         elif self.company=='Show Experts':
             prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
 
         emp_account_name_english = str(self.first_name+' '+self.last_name)
         emp_account_name_arabic = str(self.first_name_arabic+' '+self.last_name_arabic)
@@ -147,6 +151,8 @@ class Employee(NestedSet):
             prev='A'
         elif self.company=='Show Experts':
             prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
 
         emp_account_name_english = str(self.first_name+' '+self.last_name)
         emp_account_name_arabic = str(self.first_name_arabic+' '+self.last_name_arabic)
@@ -183,6 +189,8 @@ class Employee(NestedSet):
             prev='A'
         elif self.company=='Show Experts':
             prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
 
         emp_account_name_english = str(self.first_name+' '+self.last_name)
         emp_account_name_arabic = str(self.first_name_arabic+' '+self.last_name_arabic)

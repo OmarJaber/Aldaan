@@ -77,6 +77,8 @@ class Customer(TransactionBase):
             prev='A'
         elif self.company=='Show Experts':
             prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
 
         accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='1241 - Customers - العملاء - {0}' and account_name like '%{1}%' ".format(prev,self.customer_name))
         # if not frappe.db.exists("Account", {"account_name": self.customer_name.split('-')[0] }) :
