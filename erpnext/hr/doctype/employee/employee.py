@@ -70,13 +70,21 @@ class Employee(NestedSet):
 
 
     def add_advances_account(self):
+        prev='A'
+        if self.company=='aldaan':
+            prev='A'
+        elif self.company=='Show Experts':
+            prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
+
         emp_account_name_english = str(self.first_name+' '+self.last_name)
         emp_account_name_arabic = str(self.first_name_arabic+' '+self.last_name_arabic)
 
-        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='1271 - Employee Advances - سلف الموظفين - A' and account_name like '%{0}%' ".format(emp_account_name_english))
+        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='1271 - Employee Advances - سلف الموظفين - {0}' and account_name like '%{1}%' ".format(prev,emp_account_name_english))
         if not accounts:
             curr_account_number = 0
-            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='1271 - Employee Advances - سلف الموظفين - A' order by creation desc limit 1") 
+            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='1271 - Employee Advances - سلف الموظفين - {0}' order by creation desc limit 1".format(prev)) 
             if account_number:
                 curr_account_number= str(int(account_number[0][0][4:])+int(1))
             else:
@@ -88,8 +96,9 @@ class Employee(NestedSet):
                 "doctype": "Account",
                 "account_name": str(emp_account_name),
                 "account_number": '1271'+str(curr_account_number.zfill(3)),
-                "parent_account": '1271 - Employee Advances - سلف الموظفين - A',
+                "parent_account": '1271 - Employee Advances - سلف الموظفين - {0}'.format(prev),
                 "balance_must_be": 'Debit',
+                "company": self.company,
                 "is_group": 0
             }).save(ignore_permissions = True)
             
@@ -99,13 +108,21 @@ class Employee(NestedSet):
 
 
     def add_salary_expebses_account(self):
+        prev='A'
+        if self.company=='aldaan':
+            prev='A'
+        elif self.company=='Show Experts':
+            prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
+
         emp_account_name_english = str(self.first_name+' '+self.last_name)
         emp_account_name_arabic = str(self.first_name_arabic+' '+self.last_name_arabic)
 
-        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='2121 - Salary Expenses Payable - مصاريف رواتب مستحقة - A' and account_name like '%{0}%' ".format(emp_account_name_english))
+        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='2121 - Salary Expenses Payable - مصاريف رواتب مستحقة - {0}' and account_name like '%{1}%' ".format(prev,emp_account_name_english))
         if not accounts:
             curr_account_number = 0
-            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='2121 - Salary Expenses Payable - مصاريف رواتب مستحقة - A' order by creation desc limit 1") 
+            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='2121 - Salary Expenses Payable - مصاريف رواتب مستحقة - {0}' order by creation desc limit 1".format(prev)) 
             if account_number:
                 curr_account_number= str(int(account_number[0][0][4:])+int(1))
             else:
@@ -117,7 +134,8 @@ class Employee(NestedSet):
                 "doctype": "Account",
                 "account_name": str(emp_account_name),
                 "account_number": '2121'+str(curr_account_number.zfill(3)),
-                "parent_account": '2121 - Salary Expenses Payable - مصاريف رواتب مستحقة - A',
+                "parent_account": '2121 - Salary Expenses Payable - مصاريف رواتب مستحقة - {0}'.format(prev),
+                "company": self.company,
                 # "balance_must_be": 'Debit',
                 "is_group": 0
             }).save(ignore_permissions = True)
@@ -128,13 +146,21 @@ class Employee(NestedSet):
 
 
     def add_accrued_vacation_account(self):
+        prev='A'
+        if self.company=='aldaan':
+            prev='A'
+        elif self.company=='Show Experts':
+            prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
+
         emp_account_name_english = str(self.first_name+' '+self.last_name)
         emp_account_name_arabic = str(self.first_name_arabic+' '+self.last_name_arabic)
 
-        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='2122 - Accrued Vacation Expenses - مصاريف إجازات مستحقة - A' and account_name like '%{0}%' ".format(emp_account_name_english))
+        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='2122 - Accrued Vacation Expenses - مصاريف إجازات مستحقة - {0}' and account_name like '%{1}%' ".format(prev,emp_account_name_english))
         if not accounts:
             curr_account_number = 0
-            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='2122 - Accrued Vacation Expenses - مصاريف إجازات مستحقة - A' order by creation desc limit 1") 
+            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='2122 - Accrued Vacation Expenses - مصاريف إجازات مستحقة - {0}' order by creation desc limit 1".format(prev)) 
             if account_number:
                 curr_account_number= str(int(account_number[0][0][4:])+int(1))
             else:
@@ -146,8 +172,9 @@ class Employee(NestedSet):
                 "doctype": "Account",
                 "account_name": str(emp_account_name),
                 "account_number": '2122'+str(curr_account_number.zfill(3)),
-                "parent_account": '2122 - Accrued Vacation Expenses - مصاريف إجازات مستحقة - A',
+                "parent_account": '2122 - Accrued Vacation Expenses - مصاريف إجازات مستحقة - {0}'.format(prev),
                 "balance_must_be": 'Credit',
+                "company": self.company,
                 "is_group": 0
             }).save(ignore_permissions = True)
             
@@ -157,13 +184,21 @@ class Employee(NestedSet):
 
 
     def Add_end_of_service_account(self):
+        prev='A'
+        if self.company=='aldaan':
+            prev='A'
+        elif self.company=='Show Experts':
+            prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
+
         emp_account_name_english = str(self.first_name+' '+self.last_name)
         emp_account_name_arabic = str(self.first_name_arabic+' '+self.last_name_arabic)
 
-        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='2131 - Reserve End of Service Bonus - مخصص مكافأة نهاية الخدمة - A' and account_name like '%{0}%' ".format(emp_account_name_english))
+        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='2131 - Reserve End of Service Bonus - مخصص مكافأة نهاية الخدمة - {0}' and account_name like '%{1}%' ".format(prev,emp_account_name_english))
         if not accounts:
             curr_account_number = 0
-            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='2131 - Reserve End of Service Bonus - مخصص مكافأة نهاية الخدمة - A' order by creation desc limit 1") 
+            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='2131 - Reserve End of Service Bonus - مخصص مكافأة نهاية الخدمة - {0}' order by creation desc limit 1".format(prev)) 
             if account_number:
                 curr_account_number= str(int(account_number[0][0][4:])+int(1))
             else:
@@ -175,8 +210,9 @@ class Employee(NestedSet):
                 "doctype": "Account",
                 "account_name": str(emp_account_name),
                 "account_number": '2131'+str(curr_account_number.zfill(3)),
-                "parent_account": '2131 - Reserve End of Service Bonus - مخصص مكافأة نهاية الخدمة - A',
+                "parent_account": '2131 - Reserve End of Service Bonus - مخصص مكافأة نهاية الخدمة - {0}'.format(prev),
                 "balance_must_be": 'Credit',
+                "company": self.company,
                 "is_group": 0
             }).save(ignore_permissions = True)
             
@@ -312,6 +348,22 @@ class Employee(NestedSet):
             doc = frappe.get_doc("Employee Onboarding", employee_onboarding[0].name)
             doc.validate_employee_creation()
             doc.db_set("employee", self.name)
+
+    def get_employee_entitlements(self):
+        arr=[]
+        try:
+            for emp_entitlement in self.employee_entitlement:
+                arr.append(emp_entitlement.entitlement_type)
+
+            entitlements = frappe.get_list("Entitlement Type", fields='entitlement_name')
+            for entitlement in entitlements:
+                if entitlement['entitlement_name'] not in arr:
+                    self.append('employee_entitlement', {"entitlement_type": entitlement['entitlement_name']})
+        except:
+            entitlement=frappe.db.sql("select name from `tabEntitlement Type`")
+            for i in entitlement:
+                self.append('employee_entitlement', {"entitlement_type": i[0]})
+                
 
 def get_timeline_data(doctype, name):
     '''Return timeline for attendance'''

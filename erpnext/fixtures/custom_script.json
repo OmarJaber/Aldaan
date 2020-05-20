@@ -1,0 +1,11 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Item",
+  "modified": "2019-08-04 12:43:27.815882",
+  "name": "Item-Client",
+  "script": "\nfrappe.ui.form.on(\"Item\", \"item_group\", function(frm) {\n    cur_frm.set_query(\"sub_item_group\", function() {\n        return {\n            \"filters\": {\n                \"parent_item_group\": cur_frm.doc.item_group\n            }\n        };\n    });\n});\n\n\n",
+  "script_type": "Client"
+ }
+]

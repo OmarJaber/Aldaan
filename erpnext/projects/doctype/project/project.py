@@ -77,9 +77,15 @@ class Project(Document):
 
 	def validate_weights(self):
 		sum = 0
+		weight = 0
 		for task in self.tasks:
-			if task.task_weight > 0:
-				sum = flt(sum + task.task_weight, task.precision('task_weight'))
+			if task.task_weight:
+				weight = task.task_weight
+			else:
+				weight = 0
+
+			if weight > 0:
+				sum = flt(sum + weight, task.precision('task_weight'))
 		if sum > 0 and sum != 1:
 			frappe.throw(
 				_("Total of all task weights should be 1. Please adjust weights of all Project tasks accordingly"))

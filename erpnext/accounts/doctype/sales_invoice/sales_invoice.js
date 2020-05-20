@@ -786,6 +786,15 @@ var select_loyalty_program = function(frm, loyalty_programs) {
 }
 
 
+frappe.ui.form.on("Sales Invoice Advance", {
+	advance_percent: function(doc,cdt,cdn){
+		var d = locals[cdt][cdn];
+		if(d.advance_percent){
+			frappe.model.set_value(cdt, cdn, "allocated_amount", (cur_frm.doc.rounded_total/100)*d.advance_percent);
+		}
+	}
+});
+
 
 frappe.ui.form.on('Sales Invoice Item', {
 	tax_percent: function(frm, cdt, cdn){
@@ -797,55 +806,10 @@ frappe.ui.form.on('Sales Invoice Item', {
 			frappe.model.set_value(cdt, cdn, "item_tax_amount", '0');
 			frappe.model.set_value(cdt, cdn, "amount", d.item_tax_amount+(d.qty*d.rate));
 		}
-	},
-	// onload: function(frm, cdt, cdn){
-	// 	var d = locals[cdt][cdn];
-	// 	if(d.tax_percent>0) {
-	// 		frappe.model.set_value(cdt, cdn, "item_tax_amount", (d.tax_percent/100)*(d.qty*d.rate));
-	// 		frappe.model.set_value(cdt, cdn, "amount", d.item_tax_amount+(d.qty*d.rate));
-	// 	}else{
-	// 		frappe.model.set_value(cdt, cdn, "item_tax_amount", '0');
-	// 		frappe.model.set_value(cdt, cdn, "amount", d.item_tax_amount+(d.qty*d.rate));
-	// 	}
+	}
 
-		
-	// 	cur_frm.cscript.item_tax_amount(doc.doc,cdt,cdn);
-	// },
-	// items_add: function(doc,cdt,cdn){
-	//     cur_frm.cscript.total(doc.doc,cdt,cdn);
-	// },
- //    items_remove: function(doc,cdt,cdn){
-	//     cur_frm.cscript.total(doc.doc,cdt,cdn);
-	// }
 });
 
-
-// frappe.ui.form.on("Sales Invoice Item", "qty", function(frm, cdt, cdn) {
-// 	// code for calculate total and set on parent field.
-// 	total_qty = 0;
-// 	$.each(frm.doc.items || [], function(i, d) {
-// 		total_qty += (flt(d.qty)*flt(d.rate))+flt(d.item_tax_amount);
-// 	});
-// 	cur_frm.set_value("total", total_qty);
-// });
-
-// frappe.ui.form.on("Sales Invoice Item", "rate", function(frm, cdt, cdn) {
-// 	// code for calculate total and set on parent field.
-// 	total_qty = 0;
-// 	$.each(frm.doc.items || [], function(i, d) {
-// 		total_qty += (flt(d.qty)*flt(d.rate))+flt(d.item_tax_amount);
-// 	});
-// 	cur_frm.set_value("total", total_qty);
-// });
-
-// frappe.ui.form.on("Sales Invoice Item", "tax_percent", function(frm, cdt, cdn) {
-// 	// code for calculate total and set on parent field.
-// 	total_qty = 0;
-// 	$.each(frm.doc.items || [], function(i, d) {
-// 		total_qty += (flt(d.qty)*flt(d.rate))+flt(d.item_tax_amount);
-// 	});
-// 	cur_frm.set_value("total", total_qty);
-// });
 
 
 frappe.ui.form.on("Sales Invoice Item", {

@@ -55,13 +55,21 @@ class Supplier(TransactionBase):
 
 
     def add_supplier_account(self):
+        prev='A'
+        if self.company=='aldaan':
+            prev='A'
+        elif self.company=='Show Experts':
+            prev='SE'
+        elif self.company=='Primacasa':
+            prev='P'
+
         supplier_account_name_english = str(self.supplier_name)
         supplier_account_name_arabic = str(self.supplier_name_in_arabic)
 
-        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='21111 - Suppliers - الموردين - A' and account_name like '%{0}%' ".format(supplier_account_name_english))
+        accounts = frappe.db.sql("select account_name from `tabAccount` where parent_account='21111 - Suppliers - الموردين - {0}' and account_name like '%{1}%' ".format(prev,supplier_account_name_english))
         if not accounts:
             curr_account_number = 0
-            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='21111 - Suppliers - الموردين - A' order by creation desc limit 1") 
+            account_number = frappe.db.sql("select account_number from `tabAccount` where parent_account='21111 - Suppliers - الموردين - {0}' order by creation desc limit 1".format(prev)) 
             if account_number:
                 curr_account_number= str(int(account_number[0][0][5:])+int(1))
             else:
@@ -73,7 +81,8 @@ class Supplier(TransactionBase):
                 "doctype": "Account",
                 "account_name": str(supplier_account_name),
                 "account_number": '21111'+str(curr_account_number.zfill(3)),
-                "parent_account": '21111 - Suppliers - الموردين - A',
+                "parent_account": '21111 - Suppliers - الموردين - {0}'.format(prev),
+                "company": self.company,
                 # "balance_must_be": 'Debit',
                 "is_group": 0
             }).save(ignore_permissions = True)

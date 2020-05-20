@@ -349,14 +349,35 @@ frappe.ui.form.on("BOM Operation", "workstation", function(frm, cdt, cdn) {
 			name: d.workstation
 		},
 		callback: function (data) {
+			frappe.model.set_value(d.doctype, d.name, "workstation_hour_rate", data.message.hour_rate);
 			frappe.model.set_value(d.doctype, d.name, "base_hour_rate", data.message.hour_rate);
 			frappe.model.set_value(d.doctype, d.name, "hour_rate",
-				flt(flt(data.message.hour_rate) / flt(frm.doc.conversion_rate)), 2);
+				d.total_employee_entitlement + flt(flt(data.message.hour_rate) / flt(frm.doc.conversion_rate)), 2);
 
 			erpnext.bom.calculate_op_cost(frm.doc);
 			erpnext.bom.calculate_total(frm.doc);
 		}
 	});
+});
+
+frappe.ui.form.on("BOM Operation", "employee", function(frm, cdt, cdn) {
+	var d = locals[cdt][cdn];
+	if(d.employee){
+		frappe.model.set_value(d.doctype, d.name, "hour_rate", d.workstation_hour_rate+d.total_employee_entitlement);
+	}else{
+		frappe.model.set_value(d.doctype, d.name, "employee_name", );
+		frappe.model.set_value(d.doctype, d.name, "total_employee_entitlement", 0);
+		frappe.model.set_value(d.doctype, d.name, "hour_rate", d.workstation_hour_rate+d.total_employee_entitlement);
+	}
+});
+
+frappe.ui.form.on("BOM Operation", "operation", function(frm, cdt, cdn) {
+	var d = locals[cdt][cdn];
+	if(!d.operation){
+		frappe.model.set_value(d.doctype, d.name, "workstation", );
+		frappe.model.set_value(d.doctype, d.name, "workstation_hour_rate", 0);
+		frappe.model.set_value(d.doctype, d.name, "hour_rate", d.workstation_hour_rate+d.total_employee_entitlement);
+	}
 });
 
 frappe.ui.form.on("BOM Item", "qty", function(frm, cdt, cdn) {
